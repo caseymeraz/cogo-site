@@ -54,7 +54,7 @@ export default function Industry40IrelandPage() {
         <h3>Can we do Industry 4.0 with old equipment?</h3>
         <p>Yes. Retrofit IoT sensors can be attached to virtually any machine, regardless of age. &quot;Brownfield&quot; Industry 4.0 is a legitimate and cost-effective approach.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Want a clear-eyed assessment of where to start?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to us</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Want a clear-eyed assessment of where to start?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to us</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

@@ -62,7 +62,7 @@ export default function ErpDataMigrationPage() {
         <h3>Who is responsible for data migration?</h3>
         <p>You need a dedicated data migration lead with authority over both IT and business teams.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Planning an ERP migration?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to COGO</Link> about <Link href="/services/implementation-support/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">ERP implementation support</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Planning an ERP migration?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to COGO</Link> about <Link href="/services/implementation-support/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">ERP implementation support</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

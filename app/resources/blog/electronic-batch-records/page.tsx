@@ -50,7 +50,7 @@ export default function ElectronicBatchRecordsPage() {
         <h3>What does an EBR implementation cost?</h3>
         <p>A single-site implementation for a mid-size pharmaceutical manufacturer typically falls in the range of EUR 500,000 to EUR 2 million.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Considering the move from paper to electronic batch records?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Contact COGO</Link> for independent advice on technology selection, implementation planning, and validation strategy.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Considering the move from paper to electronic batch records?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Contact COGO</Link> for independent advice on technology selection, implementation planning, and validation strategy.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

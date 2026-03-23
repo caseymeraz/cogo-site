@@ -143,7 +143,7 @@ export default function HpraComplianceGuidePage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed"><strong>Your systems are your compliance evidence.</strong> If you need independent guidance on building a technology infrastructure that satisfies HPRA requirements, <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">talk to our pharmaceutical consulting team</Link>.</p>
+          <p className="text-[15px] text-muted leading-relaxed"><strong>Your systems are your compliance evidence.</strong> If you need independent guidance on building a technology infrastructure that satisfies HPRA requirements, <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">talk to our pharmaceutical consulting team</Link>.</p>
         </Reveal>
       </ContentSection>
 

@@ -71,52 +71,52 @@ export default function ERPCostGuidePage() {
         />
         <Reveal>
           <div className="overflow-x-auto -mx-6 px-6 mb-8">
-            <table className="w-full text-[13px] text-white/55 border-collapse">
+            <table className="w-full text-[13px] text-muted border-collapse">
               <thead>
                 <tr className="border-b border-white/10 text-left">
-                  <th className="py-3 pr-4 text-white/80 font-medium">Cost category</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">Typical %</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">GBP range (mid-market)</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Cost category</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Typical %</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">GBP range (mid-market)</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Software licensing</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Software licensing</td>
                   <td className="py-3 pr-4">15-25%</td>
                   <td className="py-3 pr-4">GBP 30,000 to 250,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Implementation consulting</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Implementation consulting</td>
                   <td className="py-3 pr-4">25-35%</td>
                   <td className="py-3 pr-4">GBP 50,000 to 350,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Customisation and development</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Customisation and development</td>
                   <td className="py-3 pr-4">10-20%</td>
                   <td className="py-3 pr-4">GBP 20,000 to 200,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Data migration</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Data migration</td>
                   <td className="py-3 pr-4">5-10%</td>
                   <td className="py-3 pr-4">GBP 10,000 to 100,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Training</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Training</td>
                   <td className="py-3 pr-4">5-10%</td>
                   <td className="py-3 pr-4">GBP 10,000 to 80,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Hardware and infrastructure</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Hardware and infrastructure</td>
                   <td className="py-3 pr-4">0-10%</td>
                   <td className="py-3 pr-4">GBP 0 to 100,000</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Ongoing support (per year)</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Ongoing support (per year)</td>
                   <td className="py-3 pr-4">15-22% of licence</td>
                   <td className="py-3 pr-4">GBP 15,000 to 80,000/year</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Internal resource costs</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Internal resource costs</td>
                   <td className="py-3 pr-4">10-20%</td>
                   <td className="py-3 pr-4">GBP 30,000 to 200,000</td>
                 </tr>
@@ -152,14 +152,14 @@ export default function ERPCostGuidePage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP S/4HANA
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   GBP 250,000 to 2,000,000+ total | Large enterprises, complex
                   manufacturing
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   If you are a GBP 50 million turnover business, you almost
                   certainly do not need SAP S/4HANA. We regularly see mid-market
                   organisations talked into enterprise-grade systems by
@@ -171,14 +171,14 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Oracle Cloud ERP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   GBP 200,000 to 1,500,000+ total | Upper mid-market to
                   enterprise
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Oracle&#39;s pricing can be opaque, and negotiation is
                   expected. For a deeper comparison, read{" "}
                   <Link href="/resources/guides/sap-vs-oracle/">
@@ -192,14 +192,14 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Microsoft Dynamics 365
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   GBP 80,000 to 500,000 total | Mid-market, professional
                   services, distribution
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Dominates the UK mid-market for good reason. Per-user licensing
                   is transparent (starting around GBP 150 to 170 per user per
                   month for Finance and Operations modules).
@@ -210,13 +210,13 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   NetSuite
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   GBP 50,000 to 300,000 total | Fast-growing mid-market, SaaS
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   NetSuite&#39;s pricing is opaque. Oracle (who own NetSuite)
                   are notorious for aggressive discounting off inflated list
                   prices. Never accept the first quote.
@@ -227,14 +227,14 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Sage X3 and SYSPRO
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   GBP 40,000 to 250,000 total | Mid-market manufacturing and
                   distribution
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Cost-effective options for manufacturers that need genuine ERP
                   functionality without the overhead of SAP or Oracle.
                 </p>
@@ -322,10 +322,10 @@ export default function ERPCostGuidePage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Internal staff time
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your best people will lose 30 to 50% of their productive
                   capacity for the duration of the project. Real cost: GBP
                   30,000 to 200,000 in equivalent salary, plus the knock-on
@@ -337,10 +337,10 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Productivity dip at go-live
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Panorama Consulting found 67% of organisations experienced
                   operational disruption during go-live, with an average
                   productivity dip of 15 to 25% lasting 1 to 4 months.
@@ -351,10 +351,10 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Scope creep
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The average ERP project exceeds its original budget by 30 to
                   40%, according to Panorama&#39;s research. Budget a
                   contingency of at least 20%.
@@ -365,10 +365,10 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Data cleansing
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Customer records with missing postcodes, duplicate supplier
                   accounts, product codes that mean different things in different
                   departments. Real cost: GBP 10,000 to 60,000. Often
@@ -380,10 +380,10 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Integration costs
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your ERP needs to talk to your CRM, e-commerce platform,
                   warehouse management, and EDI connections. Each integration is
                   a mini-project: GBP 5,000 to 30,000 per integration. A
@@ -395,10 +395,10 @@ export default function ERPCostGuidePage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Extended post go-live support
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Implementation partners typically include 4 to 8 weeks of
                   hypercare. It is almost never enough. Extending it costs GBP
                   15,000 to 60,000, and you will be negotiating from a weak

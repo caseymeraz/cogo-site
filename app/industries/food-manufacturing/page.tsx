@@ -80,10 +80,10 @@ export default function FoodManufacturingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Traceability from farm to fork
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   EU Regulation 178/2002 and the UK&#39;s retained version
                   require you to identify the source of every ingredient and the
                   destination of every finished product. That is not a
@@ -100,10 +100,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Batch control and recipe management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Food manufacturing runs on recipes and formulations. Your ERP
                   must handle variable yields, substitution rules, co-products,
                   and by-products. It must also manage version control on recipes
@@ -117,10 +117,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Shelf-life management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   You are selling perishable goods. Your ERP must enforce FIFO
                   (first in, first out) or FEFO (first expired, first out)
                   picking rules. It needs to calculate remaining shelf life at
@@ -135,10 +135,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Allergen management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Natasha&#39;s Law (October 2021) tightened allergen labelling
                   requirements for prepacked for direct sale foods in England,
                   Wales, and Northern Ireland. Your ERP must manage 14
@@ -153,10 +153,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.2}>
             <SpotlightCard className="md:col-span-2">
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Recall management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   When a recall happens, speed is everything. The BRCGS standard
                   expects you to complete a mock recall within four hours. Your
                   ERP system should let you trace any batch from raw material
@@ -181,14 +181,14 @@ export default function FoodManufacturingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP S/4HANA
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large enterprises (GBP 500m+ revenue) | GBP 1m-5m+
                   implementation
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deep batch management, global compliance, advanced supply
                   chain planning. Powerful but heavy. You will need a large
                   internal team or expensive ongoing support.
@@ -199,14 +199,14 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Infor M3
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-to-large food and beverage manufacturers | GBP
                   500k-2m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Purpose-built food industry functionality, strong process
                   manufacturing, integrated quality management. The strongest
                   &quot;out of the box&quot; food manufacturing fit, but
@@ -219,14 +219,14 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Sage X3
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market food manufacturers (GBP 10m-250m) | GBP
                   150k-600k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Good traceability, solid batch control, relatively lower cost
                   of ownership. Sensible mid-market choice. Less depth in
                   advanced planning than Infor M3 or SAP.
@@ -237,14 +237,14 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   IFS
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Manufacturers with complex mixed-mode production |
                   GBP 400k-1.5m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Strong asset management, good for companies that combine food
                   manufacturing with distribution. Excellent if you also run
                   significant field service or asset-heavy operations. Less
@@ -256,14 +256,14 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Microsoft Dynamics 365
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market companies already on the Microsoft stack
                   | GBP 200k-800k+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Familiar interface, strong ecosystem of food-specific ISV
                   add-ons (e.g., To-Increase, Aptean Respond). You are buying a
                   platform, not a food ERP. Budget for ISV add-ons to cover
@@ -275,14 +275,14 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SYSPRO
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Smaller food manufacturers (GBP 5m-100m) | GBP
                   80k-300k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Straightforward implementation, decent lot tracking, lower
                   barrier to entry. Good for simpler operations. May struggle if
                   you have complex multi-site or multi-country requirements.
@@ -461,10 +461,10 @@ export default function FoodManufacturingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Recipe and formulation management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your ERP should handle multi-level recipes (recipes within
                   recipes), manage variable yields, support substitution rules,
                   and link formulations directly to purchasing, production, and
@@ -478,10 +478,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Lot traceability
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Full forward and backward traceability at the lot level is
                   non-negotiable. You need to trace a finished product batch back
                   to every raw material lot used, and trace any raw material
@@ -495,10 +495,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Demand forecasting and planning
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Food manufacturing demand is seasonal, promotional, and
                   volatile. Your ERP&#39;s planning module needs to handle
                   promotional uplifts, seasonal patterns, and short lead times.
@@ -513,10 +513,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Quality control and quality assurance
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your ERP should support incoming goods inspection, in-process
                   checks, and finished goods release. It needs to manage
                   specification limits, trigger holds and quarantines when
@@ -530,10 +530,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Recall management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   BRCGS requires you to complete a mock recall within four
                   hours. Your ERP should let you enter a lot number and
                   immediately see every customer shipment affected, every raw
@@ -547,10 +547,10 @@ export default function FoodManufacturingPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Shelf-life and expiry management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your ERP must enforce shelf-life rules at goods receipt, during
                   storage, and at dispatch. It should calculate remaining shelf
                   life and compare it against customer-specific requirements.

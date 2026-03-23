@@ -287,7 +287,7 @@ export default function WhyErpImplementationsFailPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed italic">
+          <p className="text-[15px] text-muted leading-relaxed italic">
             Laurence Phelan is a director at COGO Consulting, specialising in{" "}
             <Link href="/services/implementation-support/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">
               client-side ERP implementation consulting

@@ -152,14 +152,14 @@ export default function ProfessionalServicesPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Microsoft Dynamics 365 Business Central + Project Operations
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market firms (50 to 500 people) | GBP 150k to
                   500k implementation
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The most common mid-market choice. Project Operations has
                   improved significantly since 2022. Integrated project
                   accounting, resource scheduling, time and expense tracking.
@@ -172,14 +172,14 @@ export default function ProfessionalServicesPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Unit4 ERP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-to-large professional services (200 to 5,000+
                   people) | GBP 300k to 1m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Purpose-built for people-centric organisations with strong
                   project accounting and good resource management. One of the
                   best fits for pure professional services. Less suited if you
@@ -191,14 +191,14 @@ export default function ProfessionalServicesPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP S/4HANA + SAP Professional Services
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large firms and global consultancies | GBP 1m to
                   5m+ implementation
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deep project accounting, multi-currency, global compliance,
                   powerful analytics. The big four accounting firms and large
                   engineering consultancies use SAP. Overkill for most mid-market
@@ -214,14 +214,14 @@ export default function ProfessionalServicesPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Oracle NetSuite + SRP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market, cloud-first professional services firms
                   | GBP 100k to 400k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Strong cloud offering. The Services Resource Planning (SRP)
                   module is purpose-built for professional services. Native
                   cloud, good project management, and solid financials. Evaluate
@@ -233,14 +233,14 @@ export default function ProfessionalServicesPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Deltek Vantagepoint
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Architecture, engineering, and environmental
                   consulting | GBP 100k to 400k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Purpose-built for AEC firms with excellent project accounting,
                   resource planning, and compliance. If you are an AEC firm,
                   Deltek is the industry standard. Less relevant for other
@@ -252,13 +252,13 @@ export default function ProfessionalServicesPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   FinancialForce (Certinia)
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Firms already on Salesforce | GBP 150k to 500k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Built on Salesforce platform, integrating CRM with project
                   delivery and financials. Excellent if you are already a
                   Salesforce shop. Less compelling if you are not, as you are

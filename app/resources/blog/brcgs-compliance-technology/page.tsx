@@ -203,7 +203,7 @@ export default function BrcgsComplianceTechnologyPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed">
+          <p className="text-[15px] text-muted leading-relaxed">
             <strong>Need to align your ERP with BRCGS requirements?</strong>{" "}
             <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">
               Talk to our team

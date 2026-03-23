@@ -187,10 +187,10 @@ export default function PublicSectorPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Procurement and contract management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Requisition-to-payment workflows, catalogue management,
                   contract tracking, and supplier performance monitoring.
                   Support for framework agreements and mini-competitions as
@@ -202,10 +202,10 @@ export default function PublicSectorPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Fund accounting and budgetary control
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Support for fund accounting, commitment accounting, multi-year
                   budgeting, and the specific chart of accounts used by your
                   organisation. Reports in the formats required by regulators,
@@ -217,10 +217,10 @@ export default function PublicSectorPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   HR, payroll, and workforce planning
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Complex pay structures (Agenda for Change in the NHS, HSE
                   consolidated salary scales in Ireland), pension calculations,
                   working time compliance, and integration with rostering
@@ -232,10 +232,10 @@ export default function PublicSectorPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Inventory and supply chain management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Real-time inventory visibility across sites, automated
                   replenishment based on par levels, and integration with
                   product recall systems. These are operational necessities, not
@@ -247,10 +247,10 @@ export default function PublicSectorPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Regulatory compliance and audit
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Full audit trails, segregation of duties, and the evidence
                   your internal auditors, the Comptroller and Auditor General
                   (Ireland), or the National Audit Office (UK) require during
@@ -262,10 +262,10 @@ export default function PublicSectorPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Public sector procurement compliance
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Support for open, restricted, and competitive dialogue
                   procedures under EU and UK public procurement regulations.
                   Built-in controls to ensure transparency and compliance with
@@ -288,14 +288,14 @@ export default function PublicSectorPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP S/4HANA
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large hospital groups, national health systems, and
                   major government agencies
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deep financial management, strong procurement, proven at
                   scale in public sector. The HSE and several NHS trusts use
                   SAP. Powerful but requires significant investment in
@@ -307,13 +307,13 @@ export default function PublicSectorPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Oracle Cloud ERP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large and mid-sized public sector organisations
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Strong financials and procurement, good cloud roadmap, solid
                   HR module. Oracle has invested heavily in public
                   sector-specific cloud functionality. Evaluate carefully
@@ -325,14 +325,14 @@ export default function PublicSectorPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Microsoft Dynamics 365
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-sized trusts, local authorities, and government
                   agencies
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Familiar interface, strong ecosystem, good integration with
                   Microsoft 365 tools. Works well for finance and procurement.
                   HR and payroll may require third-party add-ons. The most
@@ -344,14 +344,14 @@ export default function PublicSectorPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Unit4
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-sized public sector and not-for-profit
                   organisations
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Purpose-built for people-centric organisations with strong
                   fund accounting. A good fit for organisations that do not
                   need deep manufacturing or supply chain functionality. Well

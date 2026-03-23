@@ -122,7 +122,7 @@ export default function GlossaryPage() {
               ) : (
                 <span
                   key={letter}
-                  className="w-9 h-9 flex items-center justify-center rounded-lg text-[13px] font-medium text-white/15"
+                  className="w-9 h-9 flex items-center justify-center rounded-lg text-[13px] font-medium text-muted/70"
                 >
                   {letter}
                 </span>
@@ -134,7 +134,7 @@ export default function GlossaryPage() {
         {glossaryTerms.map((group) => (
           <div key={group.letter} id={group.letter} className="mb-12">
             <Reveal>
-              <h2 className="text-[24px] font-semibold text-white/90 mb-6 tracking-[-0.02em]">
+              <h2 className="text-[24px] font-semibold text-foreground mb-6 tracking-[-0.02em]">
                 {group.letter}
               </h2>
             </Reveal>
@@ -143,10 +143,10 @@ export default function GlossaryPage() {
                 <Reveal key={term.href}>
                   <Link href={term.href}>
                     <SpotlightCard className="p-6 hover:border-white/10 transition-colors">
-                      <h3 className="text-[17px] font-medium text-white/85 mb-2">
+                      <h3 className="text-[17px] font-medium text-foreground mb-2">
                         {term.title}
                       </h3>
-                      <p className="text-[14px] text-white/45 leading-relaxed">
+                      <p className="text-[14px] text-muted leading-relaxed">
                         {term.description}
                       </p>
                     </SpotlightCard>

@@ -77,7 +77,7 @@ export default function FoodSafetyManagementSystemsPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed">
+          <p className="text-[15px] text-muted leading-relaxed">
             <strong>Need independent help choosing food safety management technology?</strong>{" "}
             <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to COGO</Link>.
           </p>

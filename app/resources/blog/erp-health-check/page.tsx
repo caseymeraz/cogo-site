@@ -95,7 +95,7 @@ export default function ErpHealthCheckPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed"><strong>If your ERP system is not performing the way it should - or you simply want an honest, independent view of where you stand - talk to COGO.</strong> We work exclusively on the client side, which means our only interest is yours. <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p>
+          <p className="text-[15px] text-muted leading-relaxed"><strong>If your ERP system is not performing the way it should - or you simply want an honest, independent view of where you stand - talk to COGO.</strong> We work exclusively on the client side, which means our only interest is yours. <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p>
         </Reveal>
       </ContentSection>
 

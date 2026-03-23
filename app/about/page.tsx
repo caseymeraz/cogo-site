@@ -51,10 +51,10 @@ export default function AboutPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Independence is non-negotiable
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The moment a consultancy earns revenue from selling software,
                   their advice is compromised. Full stop. We will never resell
                   technology or accept vendor commissions.
@@ -65,10 +65,10 @@ export default function AboutPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Experience matters more than methodology
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Frameworks are useful. But there is no substitute for having
                   personally led an ERP programme, dealt with a failing
                   integrator, or managed a go-live in a 24/7 manufacturing
@@ -80,10 +80,10 @@ export default function AboutPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Outcomes over deliverables
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   You do not need a 200-page report. You need your project to
                   come in on time, on budget, and actually work. Everything we do
                   is measured against that standard.
@@ -132,10 +132,10 @@ export default function AboutPage() {
             <Link href="/about/team/" className="block group">
               <SpotlightCard>
                 <div className="p-6">
-                  <h3 className="text-[17px] font-semibold text-white/90 mb-2 group-hover:text-accent transition-colors">
+                  <h3 className="text-[17px] font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">
                     Meet the team
                   </h3>
-                  <p className="text-[14px] text-white/45 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     Senior practitioners with direct experience leading ERP
                     programmes from the client side.
                   </p>
@@ -147,10 +147,10 @@ export default function AboutPage() {
             <Link href="/about/why-cogo/" className="block group">
               <SpotlightCard>
                 <div className="p-6">
-                  <h3 className="text-[17px] font-semibold text-white/90 mb-2 group-hover:text-accent transition-colors">
+                  <h3 className="text-[17px] font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">
                     Why choose COGO
                   </h3>
-                  <p className="text-[14px] text-white/45 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     What client-side consulting means and why it matters for your
                     project.
                   </p>
@@ -162,10 +162,10 @@ export default function AboutPage() {
             <Link href="/about/partners/" className="block group">
               <SpotlightCard>
                 <div className="p-6">
-                  <h3 className="text-[17px] font-semibold text-white/90 mb-2 group-hover:text-accent transition-colors">
+                  <h3 className="text-[17px] font-semibold text-foreground mb-2 group-hover:text-accent transition-colors">
                     Our partners
                   </h3>
-                  <p className="text-[14px] text-white/45 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     How our alliance with Westernacher delivers independent
                     advice backed by world-class SAP capability.
                   </p>

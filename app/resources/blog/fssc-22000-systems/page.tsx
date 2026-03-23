@@ -81,7 +81,7 @@ export default function Fssc22000SystemsPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed">
+          <p className="text-[15px] text-muted leading-relaxed">
             <strong>Ready to assess whether your systems are fit for FSSC 22000?</strong>{" "}
             <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch with COGO</Link>{" "}
             for an independent review.

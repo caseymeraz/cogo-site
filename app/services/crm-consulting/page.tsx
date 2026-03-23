@@ -76,50 +76,50 @@ export default function CRMConsultingPage() {
                   <span className="text-[13px] font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
                     Block 1
                   </span>
-                  <h3 className="text-[17px] font-semibold text-white/90">
+                  <h3 className="text-[17px] font-semibold text-foreground">
                     Standing Strong (30-60 days)
                   </h3>
                 </div>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-4">
+                <p className="text-[14px] text-muted leading-relaxed mb-4">
                   Before anyone talks about dashboards or automations, your CRM
                   needs a solid foundation. This first phase is about getting
                   the basics right so everything that follows actually works.
                 </p>
                 <ul className="space-y-2">
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Data architecture
                       </strong>{" "}
                       - designing your contact, company, and deal structures to
                       match how your business actually sells
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Pipeline design
                       </strong>{" "}
                       - mapping your real sales stages, with clear entry and
                       exit criteria that match what your reps do day to day
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Data migration and cleanup
                       </strong>{" "}
                       - moving your existing data cleanly, without dragging over
                       years of duplicates and dead records
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Core integrations
                       </strong>{" "}
                       - connecting your CRM to email, calendar, and your
@@ -132,10 +132,10 @@ export default function CRMConsultingPage() {
                       </Link>
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         User setup and permissions
                       </strong>{" "}
                       - making sure each person sees exactly what they need and
@@ -154,20 +154,20 @@ export default function CRMConsultingPage() {
                   <span className="text-[13px] font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
                     Block 2
                   </span>
-                  <h3 className="text-[17px] font-semibold text-white/90">
+                  <h3 className="text-[17px] font-semibold text-foreground">
                     Walking - training and pipeline management (60-120 days)
                   </h3>
                 </div>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-4">
+                <p className="text-[14px] text-muted leading-relaxed mb-4">
                   With the foundation set, Block 2 is about building habits.
                   This is where most CRM projects actually succeed or fail, and
                   it has almost nothing to do with technology.
                 </p>
                 <ul className="space-y-2">
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Role-specific training
                       </strong>{" "}
                       - not generic vendor webinars, but sessions tailored to
@@ -175,30 +175,30 @@ export default function CRMConsultingPage() {
                       actually use the system each day
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Pipeline management cadence
                       </strong>{" "}
                       - establishing a weekly rhythm for pipeline reviews using
                       real CRM data
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Reporting and visibility
                       </strong>{" "}
                       - building the reports and dashboards your managers need
                       to coach effectively and forecast accurately
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Process refinement
                       </strong>{" "}
                       - adjusting workflows based on feedback from the first few
@@ -206,7 +206,7 @@ export default function CRMConsultingPage() {
                     </span>
                   </li>
                 </ul>
-                <p className="text-[14px] text-white/50 leading-relaxed mt-4">
+                <p className="text-[14px] text-muted leading-relaxed mt-4">
                   Nucleus Research found that CRM systems deliver an average
                   return of EUR 8.71 for every EUR 1 spent - but only when
                   adoption is sustained beyond the first 90 days (Nucleus
@@ -223,21 +223,21 @@ export default function CRMConsultingPage() {
                   <span className="text-[13px] font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
                     Block 3
                   </span>
-                  <h3 className="text-[17px] font-semibold text-white/90">
+                  <h3 className="text-[17px] font-semibold text-foreground">
                     Running - marketing integration, AI, and lead capture (120+
                     days)
                   </h3>
                 </div>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-4">
+                <p className="text-[14px] text-muted leading-relaxed mb-4">
                   Once your team is confidently managing pipeline in the CRM,
                   you can start layering in the more sophisticated capabilities
                   that genuinely move the needle on revenue.
                 </p>
                 <ul className="space-y-2">
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Marketing integration
                       </strong>{" "}
                       - connecting your CRM to your email marketing platform,
@@ -245,20 +245,20 @@ export default function CRMConsultingPage() {
                       automatically
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         AI-powered sequences
                       </strong>{" "}
                       - automated follow-up sequences, lead scoring models, and
                       next-best-action prompts
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Lead capture and qualification
                       </strong>{" "}
                       - web-to-lead forms, chatbots, and landing page
@@ -266,10 +266,10 @@ export default function CRMConsultingPage() {
                       your pipeline
                     </span>
                   </li>
-                  <li className="flex gap-3 items-start text-[14px] text-white/50 leading-relaxed">
+                  <li className="flex gap-3 items-start text-[14px] text-muted leading-relaxed">
                     <span className="w-1 h-1 rounded-full bg-accent/60 mt-[0.65em] flex-shrink-0" />
                     <span>
-                      <strong className="text-white/80 font-medium">
+                      <strong className="text-foreground font-medium">
                         Advanced analytics
                       </strong>{" "}
                       - customer lifetime value modelling, churn prediction, and
@@ -277,7 +277,7 @@ export default function CRMConsultingPage() {
                     </span>
                   </li>
                 </ul>
-                <p className="text-[14px] text-white/50 leading-relaxed mt-4">
+                <p className="text-[14px] text-muted leading-relaxed mt-4">
                   This phased approach means every feature you add is built on a
                   working foundation. No automations firing into a broken
                   pipeline. No AI scoring leads that nobody follows up on.
@@ -300,10 +300,10 @@ export default function CRMConsultingPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Salesforce
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Still the market leader with roughly 22% global market share
                   (IDC, 2024). Enormously capable, but also complex and
                   expensive. If your sales team is under 20 people, Salesforce
@@ -317,10 +317,10 @@ export default function CRMConsultingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   HubSpot
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The strongest option for businesses that want their CRM and
                   marketing automation in one place without heavy configuration.
                   HubSpot&apos;s free tier is genuinely useful, and its paid
@@ -334,10 +334,10 @@ export default function CRMConsultingPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Microsoft Dynamics 365
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The natural choice if your business already runs on Microsoft
                   (Teams, Outlook, SharePoint, Azure). The integration is a
                   genuine advantage. However, Dynamics 365 implementations tend
@@ -350,10 +350,10 @@ export default function CRMConsultingPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Zoho CRM
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Often overlooked, but a serious contender for SMEs that want
                   solid functionality without enterprise pricing. Zoho&apos;s
                   ecosystem includes over 40 integrated apps. If budget matters
@@ -391,10 +391,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   1. No clear definition of what &quot;done&quot; looks like
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   &quot;We need better visibility of the pipeline&quot; is not a
                   goal. &quot;Every rep logs activity within 24 hours, pipeline
                   is reviewed weekly, and forecast accuracy is within 15%&quot;
@@ -408,10 +408,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   2. Treating it as an IT project instead of a sales project
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your CRM exists to help your sales team, account managers, and
                   customer service reps do their jobs better. But too often, the
                   project gets handed to IT because &quot;it is a technology
@@ -426,10 +426,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   3. Dirty data, dirty system
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Migrating your existing data without cleaning it first is one
                   of the most common and most damaging mistakes. Duplicate
                   contacts, outdated company records, deals that closed three
@@ -445,10 +445,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   4. Under-investing in training and change management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The vendor provides a handful of generic training sessions.
                   Your team nods along. Then everyone goes back to their desks
                   and has no idea how the system applies to their role. Real CRM
@@ -462,10 +462,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   5. Over-customisation in the first phase
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Some businesses try to customise every field, workflow, and
                   automation before anyone has used the system in anger. The
                   result is a rigid setup that does not match how people
@@ -480,10 +480,10 @@ export default function CRMConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   6. No executive sponsor with real authority
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   CRM adoption requires someone senior enough to say: &quot;This
                   is how we work now. Pipeline reviews happen in the CRM. If it
                   is not in the system, it does not exist.&quot; Without that
@@ -519,10 +519,10 @@ export default function CRMConsultingPage() {
         <div className="space-y-8">
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What does your sales process actually look like?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Not the version on the slide deck from the last quarterly
                 review. The real one - where reps skip stages, qualification is
                 inconsistent, and nobody agrees on what a &quot;qualified
@@ -535,10 +535,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What data do you actually need to make decisions?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Most CRM systems capture far more data than anyone uses. Every
                 additional required field is a tax on your sales team&apos;s
                 time. Be ruthless about what you collect. If nobody is going to
@@ -550,10 +550,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How will you measure success?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Before you go live, define the metrics that matter: lead
                 response time, pipeline conversion rates, forecast accuracy,
                 customer retention rates, average deal cycle length. Measure
@@ -565,10 +565,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 Who owns the CRM long-term?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 After the consultants leave, someone in your business needs to
                 own the system. That means a dedicated CRM administrator (or at
                 minimum a power user with allocated time), a process for change
@@ -581,10 +581,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How does CRM fit into your wider technology strategy?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Your CRM does not operate in isolation. It connects to your ERP,
                 your marketing platform, your customer support tools, your
                 finance system. If you are planning a broader transformation, it
@@ -603,7 +603,7 @@ export default function CRMConsultingPage() {
         </div>
 
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-[1.8] mt-8">
+          <p className="text-[15px] text-muted leading-[1.8] mt-8">
             A clear CRM strategy, defined before you buy anything, is the single
             biggest predictor of project success. It costs almost nothing to get
             right and a fortune to fix later.
@@ -618,10 +618,10 @@ export default function CRMConsultingPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How long does a CRM implementation take?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 For a mid-market business with 20 to 100 users, expect 8 to 16
                 weeks for a solid core implementation (Blocks 1 and 2).
                 Marketing automation, AI sequences, and advanced integrations
@@ -634,10 +634,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How much does CRM consulting cost in Ireland?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Our engagements typically range from EUR 15,000 for a focused
                 CRM selection and strategy project to EUR 50,000+ for
                 end-to-end advisory across selection, implementation oversight,
@@ -651,10 +651,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 Do we need a CRM consultant if we are a small business?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 If you have fewer than 10 users and a straightforward sales
                 process, you can probably handle setup yourself with a good
                 implementation partner. Where a CRM consultant adds value -
@@ -675,10 +675,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 Can you help fix a CRM that has already been implemented badly?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Yes, and it is more common than you would think. About a third
                 of our CRM engagements are rescue projects - businesses that
                 implemented a CRM one to three years ago and are not getting
@@ -692,10 +692,10 @@ export default function CRMConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 Which CRM is best for Irish businesses?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 There is no single answer. The right CRM depends on your
                 industry, team size, budget, and sales complexity. We have seen
                 Irish businesses thrive on Salesforce, HubSpot, Dynamics 365,

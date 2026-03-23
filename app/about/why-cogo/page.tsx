@@ -29,10 +29,10 @@ export default function WhyCogoPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Vendor bias is baked into the model
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   When a consultancy resells software or earns referral
                   commissions, they have a financial incentive to recommend the
                   product that pays them the most. Your requirements come second.
@@ -43,10 +43,10 @@ export default function WhyCogoPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   SI conflicts are just as real
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   If the same firm that advises you on what to buy also earns
                   revenue from implementing it, they benefit from complexity. A
                   longer project means more billable hours. An expanded scope
@@ -58,10 +58,10 @@ export default function WhyCogoPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Big Four firms sell seniority, deliver juniors
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   A partner presents at the pitch. A senior manager runs the
                   first workshop. By month two, your project is staffed with
                   analysts who have never led a programme. You are paying top
@@ -72,7 +72,7 @@ export default function WhyCogoPage() {
           </Reveal>
         </div>
         <Reveal delay={0.3}>
-          <p className="text-[15px] text-white/45 leading-relaxed mt-10">
+          <p className="text-[15px] text-muted leading-relaxed mt-10">
             None of this is news to anyone who has been through it. But somehow,
             most businesses keep walking into the same trap.
           </p>
@@ -102,10 +102,10 @@ export default function WhyCogoPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <p className="text-[11px] uppercase tracking-[0.15em] text-white/30 mb-3 font-medium">
+                <p className="text-[11px] uppercase tracking-[0.15em] text-muted/70 mb-3 font-medium">
                   On one side
                 </p>
-                <p className="text-[15px] text-white/55 leading-relaxed">
+                <p className="text-[15px] text-muted leading-relaxed">
                   The software vendor and the system integrator. They want to
                   sell you their product and bill as many hours as possible. That
                   is not malice - it is their business model.
@@ -119,7 +119,7 @@ export default function WhyCogoPage() {
                 <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-3 font-medium">
                   On your side
                 </p>
-                <p className="text-[15px] text-white/55 leading-relaxed">
+                <p className="text-[15px] text-muted leading-relaxed">
                   Your internal team and COGO. We help you define what you
                   actually need, evaluate options without bias, negotiate from a
                   position of knowledge, and hold your implementation partner
@@ -130,7 +130,7 @@ export default function WhyCogoPage() {
           </Reveal>
         </div>
         <Reveal delay={0.2}>
-          <p className="text-[15px] text-white/45 leading-relaxed mt-10">
+          <p className="text-[15px] text-muted leading-relaxed mt-10">
             We do not compete with vendors or system integrators. We make sure
             they do what they promised.
           </p>

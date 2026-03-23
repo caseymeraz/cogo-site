@@ -112,10 +112,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 1: Assess your current technology landscape
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   You cannot plan a route without knowing your starting point.
                   A proper assessment covers system inventory (including shadow
                   IT), integration mapping, technical debt, user satisfaction,
@@ -129,10 +129,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 2: Define your business vision and objectives
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your transformation objectives should be business outcomes,
                   not technology goals. There is a meaningful difference between
                   &quot;implement a new ERP system&quot; and &quot;reduce
@@ -146,10 +146,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 3: Map your processes (current and future state)
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Document how things actually work today, not how they are
                   supposed to work. Then design the processes you want.
                   Standardise before you automate. Design for exceptions, not
@@ -162,10 +162,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 4: Evaluate and select the right technology
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   With your objectives and future-state processes defined, you
                   can now make informed technology decisions. Evaluate functional
                   fit, integration capability, total cost of ownership, vendor
@@ -181,10 +181,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 5: Build your data strategy
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Data is the part everyone acknowledges is important and nobody
                   wants to deal with properly. Address data quality, migration
                   planning, governance, architecture, and analytics. Gartner
@@ -197,10 +197,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 6: Design the people and change management plan
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Technology is the easy part. People are the hard part.
                   McKinsey&#39;s research shows 70% of transformation programmes
                   fail to reach their goals, and the most cited cause is
@@ -213,10 +213,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 7: Create the implementation timeline with milestones
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Sequence by dependency, not by wish. Plan in phases, not as a
                   single big bang. Build in contingency (if your estimate is 12
                   weeks, plan for 15). Define clear milestones that are binary
@@ -229,10 +229,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.35}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Step 8: Define success metrics and governance
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Measure at three levels: business outcome metrics (revenue,
                   cost, satisfaction), programme delivery metrics (time, budget,
                   scope), and adoption metrics (login rates, process
@@ -313,10 +313,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Starting with technology instead of business problems
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The most common and most expensive mistake. An organisation
                   decides it needs &quot;a new ERP&quot; without first being
                   clear about what business problems it is solving. Always start
@@ -328,10 +328,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Underestimating the people side
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Projects with excellent change management were six times more
                   likely to meet objectives (Prosci). Despite this, most
                   organisations spend less than 5% of their transformation
@@ -343,10 +343,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Planning everything at the same level of detail
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Use a rolling-wave approach. Plan the current phase in detail,
                   the next phase at an intermediate level, and later phases at a
                   high level. Update the detailed plans as you get closer.
@@ -357,10 +357,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Ignoring data until it is too late
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Data quality issues are the number one cause of ERP
                   implementation delays (Panorama Consulting 2024). Start your
                   data assessment in Phase 1, regardless of when your go-live is
@@ -372,10 +372,10 @@ export default function DigitalTransformationRoadmapPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   No executive sponsorship
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   A transformation programme without active, visible executive
                   sponsorship will stall. The sponsor should attend steering
                   committee meetings, communicate regularly, and make decisions

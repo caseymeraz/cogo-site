@@ -103,7 +103,7 @@ export default function ErpImplementationPlanPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed">
+          <p className="text-[15px] text-muted leading-relaxed">
             <strong>Starting an ERP project and want to make sure your plan covers what matters?</strong>{" "}
             <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>{" "}
             about our <Link href="/services/implementation-support/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">client-side ERP implementation consulting</Link> service.

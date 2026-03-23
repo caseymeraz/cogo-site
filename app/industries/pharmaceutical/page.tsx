@@ -424,14 +424,14 @@ export default function PharmaceuticalPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP S/4HANA
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large pharma (EUR 500m+ revenue), multi-site global
                   operations | EUR 1m-5m+ implementation
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deep batch management, strong regulatory compliance
                   capabilities, extensive audit trail functionality, proven at
                   scale in pharma. The industry standard for large pharma.
@@ -445,14 +445,14 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Oracle Cloud ERP / Oracle E-Business Suite
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large to mid-large pharma, companies already in the
                   Oracle ecosystem | EUR 800k-4m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Strong process manufacturing, comprehensive quality
                   management, good serialisation support. Solid pharma pedigree.
                   Cloud migration path is well-established. The Oracle-to-Oracle
@@ -465,14 +465,14 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Infor CloudSuite / LN
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-to-large pharma and life sciences manufacturers
                   | EUR 500k-2m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Purpose-built life sciences functionality, strong batch
                   process management, integrated quality and compliance. Infor
                   has invested heavily in life sciences. Good fit if you want
@@ -485,14 +485,14 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   BatchMaster
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Small to mid-size pharma, especially
                   formulation-intensive operations | EUR 100k-400k
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Designed specifically for process manufacturing, strong
                   formula and batch management, good compliance features for its
                   price point. Excellent for smaller operations that need proper
@@ -505,14 +505,14 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Microsoft Dynamics 365
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market pharma, companies already on the
                   Microsoft stack | EUR 250k-1m+
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Familiar interface, strong ISV ecosystem with pharma-specific
                   add-ons (e.g., Seridian, Nuvia Dynamics), good integration
                   with Microsoft tools. You are buying a platform, not a pharma
@@ -560,10 +560,10 @@ export default function PharmaceuticalPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Batch tracking and genealogy
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Every finished batch must be traceable back to the specific
                   lots of raw materials and intermediates used. Your ERP must
                   maintain this genealogy across the full process - blending,
@@ -577,10 +577,10 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Electronic batch records
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The EMA estimated that paper-based deviations account for up
                   to 80% of all manufacturing deviations in pharma (EMA, 2022).
                   Your ERP should either include native EBR capability or
@@ -599,10 +599,10 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Serialisation and track-and-trace
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The EU Falsified Medicines Directive requires unique
                   identification (2D data matrix with product code, serial
                   number, batch number, and expiry date) on every saleable pack.
@@ -619,10 +619,10 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Audit trails
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Every GxP-critical transaction must generate a secure,
                   immutable audit trail capturing the old value, new value, user
                   identity, timestamp, and reason for change. This covers master
@@ -636,10 +636,10 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   QMS integration
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Your ERP does not replace your QMS, but it must integrate with
                   it. Deviation management, CAPA tracking, change control, and
                   OOS investigation workflows all need to flow between your QMS
@@ -654,10 +654,10 @@ export default function PharmaceuticalPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Environmental monitoring integration
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   For sterile and controlled-environment production, your ERP
                   should integrate with environmental monitoring systems to link
                   batch records with environmental conditions (temperature,

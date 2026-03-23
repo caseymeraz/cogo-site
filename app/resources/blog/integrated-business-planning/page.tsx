@@ -42,7 +42,7 @@ export default function IntegratedBusinessPlanningPage() {
         <h3>What is the typical ROI of IBP?</h3>
         <p>2 to 5% revenue improvement and 5 to 7% EBITDA improvement (Oliver Wight). 20 to 30% inventory reduction while improving service levels (McKinsey).</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Want help designing your IBP process and selecting the right technology?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to us</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Want help designing your IBP process and selecting the right technology?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to us</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

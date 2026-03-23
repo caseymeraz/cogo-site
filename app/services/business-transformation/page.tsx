@@ -71,10 +71,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Digital strategy
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Before you spend a penny on technology, you need to know where you are going and why. Your digital strategy should answer three questions: What does the business need to achieve in the next 3 to 5 years? What technology and processes will get you there? And what is the realistic cost and timeline? We work with your leadership team to build a digital strategy that connects to commercial outcomes. Read our guide on{" "}
                   <Link href="/resources/guides/digital-transformation-roadmap/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">how to build a digital transformation roadmap</Link>.
                 </p>
@@ -84,10 +84,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Business process transformation
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Technology does not fix broken processes. It amplifies them. Before you implement any new system, you need to understand how your business actually works today and design how it should work tomorrow. In our experience, 60% to 70% of the benefit from a transformation programme comes from process redesign, not from the technology itself. We map your current processes, identify waste and bottlenecks, and redesign them using lean principles before anyone starts configuring software.
                 </p>
               </div>
@@ -96,10 +96,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Strategic digital roadmap
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   A digital roadmap is not a Gantt chart. It is a sequenced plan that shows which changes to make, in what order, and why. It accounts for dependencies, resource constraints, budget cycles, and risk. A good roadmap phases the work so you see returns early, build momentum, and can adjust as you learn. That is how lean business transformation works in practice.
                 </p>
               </div>
@@ -108,10 +108,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Operational excellence
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Operational excellence is not a destination. It is a discipline. We help you build it into the fabric of your organisation, not as a one-off project, but as a permanent capability. This includes performance management frameworks, training your teams in lean and continuous improvement methods, and establishing governance structures that keep things on track after the consultants leave.
                 </p>
               </div>
@@ -133,8 +133,8 @@ export default function BusinessTransformationPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">1. Strategy and vision</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">1. Strategy and vision</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   You cannot transform a business without knowing what you are transforming it into. That sounds obvious, but you would be surprised how many organisations launch transformation programmes without a clear, shared vision of what success looks like.
                 </p>
@@ -150,8 +150,8 @@ export default function BusinessTransformationPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">2. Process redesign</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">2. Process redesign</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   This is where the work gets real. Process redesign means taking your core business processes apart, understanding where value is created and where it is destroyed, and rebuilding them.
                 </p>
@@ -167,8 +167,8 @@ export default function BusinessTransformationPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">3. Technology selection and implementation</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">3. Technology selection and implementation</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   Technology is an enabler, not a strategy. But the right technology, properly implemented, can be transformative. The wrong technology, or the right technology implemented badly, will set you back years.
                 </p>
@@ -191,8 +191,8 @@ export default function BusinessTransformationPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">4. People and change management</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">4. People and change management</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   Here is the uncomfortable truth: your transformation will succeed or fail based on whether your people adopt the new ways of working. Every other pillar is important, but this one is decisive.
                 </p>
@@ -221,8 +221,8 @@ export default function BusinessTransformationPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">Enterprise Ireland grants for transformation</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">Enterprise Ireland grants for transformation</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   If your business is based in Ireland, there is genuine financial support available. Enterprise Ireland&apos;s Digitalisation Voucher and its suite of innovation and competitiveness grants can offset a meaningful portion of your transformation costs. The Business Process Improvement Grant alone can cover up to 50% of eligible consultancy costs.
                 </p>
@@ -236,8 +236,8 @@ export default function BusinessTransformationPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">CSRD compliance driving transformation</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">CSRD compliance driving transformation</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   The Corporate Sustainability Reporting Directive is not just a reporting requirement. For many Irish and UK businesses, it is a forcing function for business transformation. CSRD requires detailed, auditable data on everything from carbon emissions to supply chain practices. If your systems cannot produce that data reliably, you have a problem that a spreadsheet will not solve.
                 </p>
@@ -251,8 +251,8 @@ export default function BusinessTransformationPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">UK and Irish industry context</h3>
-              <div className="space-y-4 text-[15px] text-white/55 leading-[1.8]">
+              <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">UK and Irish industry context</h3>
+              <div className="space-y-4 text-[15px] text-muted leading-[1.8]">
                 <p>
                   The UK and Irish mid-market has specific characteristics that shape how transformation should be approached. Many businesses in this segment are family-owned or private-equity backed. Decision-making is faster than in large corporates, but resources are tighter. There is often a legacy of underinvestment in technology, which means the gap between current state and desired state is larger.
                 </p>
@@ -277,16 +277,16 @@ export default function BusinessTransformationPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   A food manufacturer outgrowing its systems
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   A mid-sized Irish food manufacturer with EUR 80 million in revenue was running on a patchwork of systems: an ageing ERP for finance, spreadsheets for production planning, and a standalone quality system that did not talk to anything else. They were winning new retail contracts but could not scale.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Their transformation programme started with process mapping. Before touching any technology, we spent six weeks understanding how the business actually ran. The findings were revealing: 40% of production planners&apos; time was spent re-entering data between systems. Quality checks were duplicated because nobody trusted the data. Customer order changes took 48 hours to flow through to the production floor.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The redesigned processes eliminated most of that waste. A single integrated ERP replaced four systems. But the technology was the second step, not the first. The result: order-to-delivery time dropped by 35%, traceability became real-time, and the business had the operational capacity to take on the new contracts without adding headcount.
                 </p>
               </div>
@@ -295,16 +295,16 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   A professional services firm preparing for growth
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   A UK-based professional services firm with 200 staff and three offices was growing through acquisition but struggling to integrate. Each acquired business had its own systems, its own processes, and its own way of doing things. Client onboarding took twice as long as it should. Financial reporting was a monthly ordeal.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   The transformation here was less about technology and more about standardisation. We helped them define a single operating model for client onboarding, resource management, billing, and reporting. Then we selected a platform that could support that model across all offices. The technology implementation took five months. The process redesign and change management ran for nine.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Eighteen months later, the firm had a single view of every client, consistent service delivery across all offices, and financial reporting that took days instead of weeks. More importantly, they had a scalable platform that could absorb the next acquisition without starting from scratch.
                 </p>
               </div>
@@ -313,13 +313,13 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   A pharmaceutical company meeting regulatory demands
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   An Irish pharmaceutical company needed to comply with new serialisation requirements and tighten its batch tracking. Their existing systems could not support the level of traceability required. Rather than bolt on another point fix, they used the regulatory deadline as the catalyst for a broader business process transformation.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We worked with their operations, quality, and IT teams to redesign their end-to-end manufacturing and quality processes. The new ERP system was configured to support these redesigned processes, with validation built in from the start. The programme took 14 months from kick-off to go-live. Compliance was achieved ahead of the deadline, and the business gained real-time visibility into production and quality that they had never had before.
                 </p>
               </div>
@@ -338,10 +338,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Independence that actually means something
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We do not sell software. We do not take commissions or referral fees from vendors. We do not have a &quot;preferred partner&quot; list that dictates our recommendations. When we tell you that a particular platform is right for your business, it is because we have assessed your requirements and matched them to the market. Gartner&apos;s 2023 research found that 65% of ERP implementations exceed their budget. One of the primary reasons is that businesses are sold technology that does not match their actual needs. You will not have that problem with us.
                 </p>
               </div>
@@ -350,10 +350,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Practitioners, not theorists
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Our consultants have worked inside businesses, not just alongside them. They have been the programme manager sweating over a go-live date. They have been the operations director trying to keep the business running while everything changes around them. We do not produce 200-page reports that nobody reads. We produce plans that work, recommendations that are realistic, and we stay involved through execution.
                 </p>
               </div>
@@ -362,10 +362,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   The Westernacher partnership
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   For SAP implementations specifically, our partnership with Westernacher gives you access to one of Europe&apos;s most experienced SAP consultancies. Westernacher has over 900 consultants and more than 50 years of SAP implementation experience. But here is the important distinction: COGO manages the relationship and the programme. We are on your side of the table.
                 </p>
               </div>
@@ -374,10 +374,10 @@ export default function BusinessTransformationPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Right-sized for your business
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We are not trying to be McKinsey. We do not need to staff 50 consultants on your programme to make our numbers work. We scale our teams to match your needs and your budget. The people who scope your programme are the people who deliver it. You will not brief a partner who then disappears, leaving you with a team of juniors.
                 </p>
               </div>
@@ -395,48 +395,48 @@ export default function BusinessTransformationPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">What is business transformation?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">What is business transformation?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 Business transformation is the fundamental redesign of how an organisation operates to achieve a step-change in performance. It typically involves rethinking strategy, redesigning business processes, implementing new technology, and managing the people side of change. Unlike incremental improvement, which optimises what you already do, business transformation changes the model itself. A successful business transformation programme aligns all four of these elements (strategy, process, technology, and people) around a clear commercial objective.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">What are the 4 stages of business transformation?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">What are the 4 stages of business transformation?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 While every programme is different, most successful business transformations follow four broad stages. First, assessment and strategy: understanding where you are today, defining where you need to be, and building the business case. Second, design: redesigning processes, selecting technology, and planning the change management approach. Third, implementation: configuring and deploying technology, rolling out new processes, and training people. Fourth, optimisation: measuring results, refining processes, embedding continuous improvement, and building the capability to sustain the change. The biggest mistake organisations make is treating stage four as optional. Without it, you risk sliding back to old ways of working within months.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">How long does a business transformation take?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">How long does a business transformation take?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 For a mid-market business in the UK or Ireland, a typical business transformation programme takes between 12 and 24 months from initial assessment to go-live. Larger or more complex programmes can take longer. The timeline depends on scope (how many processes and systems are involved), readiness (how mature your current processes are), resources (both internal and external), and appetite for change. Be wary of anyone who promises a faster timeline without understanding your business. Rushing a transformation is one of the most reliable ways to ensure it fails.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">How much does business transformation cost?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">How much does business transformation cost?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 Costs vary enormously depending on scope, complexity, and the technology involved. For a mid-market business, a transformation programme including process redesign, technology implementation, and change management typically costs between EUR 500,000 and EUR 3 million. That includes consultancy, technology licences, implementation, training, and internal resource costs. The more important question is return on investment. A well-executed transformation should deliver measurable returns within 18 to 24 months of go-live, typically through reduced operational costs, improved productivity, better data for decision-making, and increased capacity for growth. If your consultancy cannot articulate the expected ROI in specific terms, ask harder questions.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">What is the difference between digital transformation and business transformation?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">What is the difference between digital transformation and business transformation?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 Digital transformation focuses specifically on using technology to change how a business operates and delivers value. Business transformation is broader: it includes digital transformation but also encompasses strategy, process redesign, organisational change, and culture. In practice, the two are deeply intertwined. You cannot transform your business processes without technology, and technology without process change is just an expensive upgrade. At COGO, we treat them as inseparable. A business transformation framework that ignores technology is incomplete, and a digital transformation consulting engagement that ignores process and people is a recipe for an expensive failure.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">Why do most transformations fail?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">Why do most transformations fail?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 The 70% failure rate that McKinsey and others cite comes down to a few recurring causes. First, lack of clear vision and executive commitment: programmes that do not have visible, sustained support from the top lose momentum. Second, underinvesting in change management: organisations spend millions on technology and almost nothing on helping people adapt. Third, poor process discipline: implementing new technology on top of broken processes just automates the mess. Fourth, unrealistic timelines and budgets: organisations underestimate the effort required, then cut corners when they run short. Fifth, choosing technology for the wrong reasons: selecting a platform because of vendor relationships or brand recognition rather than fit for purpose. COGO exists to help you avoid every one of these pitfalls.
               </p>
             </div>
@@ -447,7 +447,7 @@ export default function BusinessTransformationPage() {
       {/* Author */}
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[13px] text-white/30 italic leading-relaxed">
+          <p className="text-[13px] text-muted/70 italic leading-relaxed">
             Written by Laurence Phelan, Director, COGO Consulting. Laurence has over 20 years of experience in business and digital transformation across manufacturing, pharma, food, and professional services.
           </p>
         </Reveal>

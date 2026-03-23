@@ -110,7 +110,7 @@ export default function ErpPostGoLiveOptimizationPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed"><strong>If your ERP is live but not delivering the value your business case promised, COGO can help.</strong> We provide independent, client-side advice to help you identify what needs to change and build a practical plan to get there. <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p>
+          <p className="text-[15px] text-muted leading-relaxed"><strong>If your ERP is live but not delivering the value your business case promised, COGO can help.</strong> We provide independent, client-side advice to help you identify what needs to change and build a practical plan to get there. <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p>
         </Reveal>
       </ContentSection>
 

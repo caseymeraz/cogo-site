@@ -65,52 +65,52 @@ export default function SAPvsOraclePage() {
         />
         <Reveal>
           <div className="overflow-x-auto -mx-6 px-6">
-            <table className="w-full text-[13px] text-white/55 border-collapse">
+            <table className="w-full text-[13px] text-muted border-collapse">
               <thead>
                 <tr className="border-b border-white/10 text-left">
-                  <th className="py-3 pr-4 text-white/80 font-medium">Category</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">SAP S/4HANA</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">Oracle Cloud ERP</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Category</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">SAP S/4HANA</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Oracle Cloud ERP</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">Best for</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">Best for</td>
                   <td className="py-3 pr-4">Large manufacturers, complex supply chains</td>
                   <td className="py-3 pr-4">Finance-heavy, cloud-first businesses</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">Cloud maturity</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">Cloud maturity</td>
                   <td className="py-3 pr-4">Hybrid (RISE with SAP)</td>
                   <td className="py-3 pr-4">Cloud-native SaaS</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">UK pricing range</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">UK pricing range</td>
                   <td className="py-3 pr-4">GBP 150k to 2m+ annually</td>
                   <td className="py-3 pr-4">GBP 100k to 1.5m+ annually</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">Manufacturing</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">Manufacturing</td>
                   <td className="py-3 pr-4">Industry-leading</td>
                   <td className="py-3 pr-4">Capable, growing fast</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">Finance</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">Finance</td>
                   <td className="py-3 pr-4">Strong, especially multi-currency</td>
                   <td className="py-3 pr-4">Exceptional, purpose-built</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">User experience</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">User experience</td>
                   <td className="py-3 pr-4">SAP Fiori (improved but inconsistent)</td>
                   <td className="py-3 pr-4">Redwood (clean, modern)</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">UK partner ecosystem</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">UK partner ecosystem</td>
                   <td className="py-3 pr-4">Huge</td>
                   <td className="py-3 pr-4">Smaller but growing</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/70">Implementation timeline</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground/80">Implementation timeline</td>
                   <td className="py-3 pr-4">12 to 36 months</td>
                   <td className="py-3 pr-4">9 to 24 months</td>
                 </tr>
@@ -234,15 +234,15 @@ export default function SAPvsOraclePage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Cloud capabilities
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Oracle went all-in on cloud-native architecture years ago.
                   Features arrive every 90 days automatically. SAP&#39;s RISE
                   programme has simplified the commercial model, but the
                   underlying technology was originally designed for on-premise.
-                  <strong className="text-white/70"> Verdict:</strong> Oracle
+                  <strong className="text-foreground/80"> Verdict:</strong> Oracle
                   wins on cloud maturity.
                 </p>
               </div>
@@ -251,15 +251,15 @@ export default function SAPvsOraclePage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Manufacturing and supply chain
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   SAP&#39;s manufacturing capabilities are the product of 30+
                   years of refinement. Oracle is genuinely competitive for
                   process manufacturing where batch tracking and recipe
                   management are critical.
-                  <strong className="text-white/70"> Verdict:</strong> SAP wins
+                  <strong className="text-foreground/80"> Verdict:</strong> SAP wins
                   for complex discrete manufacturing. Oracle is competitive for
                   process manufacturing.
                 </p>
@@ -269,15 +269,15 @@ export default function SAPvsOraclePage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Financial management
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Oracle excels at multi-entity financial close, consolidation,
                   and reporting. SAP&#39;s strengths are in multi-currency
                   operations, intercompany accounting, and localisation for 40+
                   countries.
-                  <strong className="text-white/70"> Verdict:</strong> Oracle
+                  <strong className="text-foreground/80"> Verdict:</strong> Oracle
                   wins for financial reporting and EPM. SAP wins for
                   multi-country operations.
                 </p>
@@ -287,16 +287,16 @@ export default function SAPvsOraclePage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   User experience
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Oracle&#39;s Redwood design system delivers a clean, modern
                   interface. Gartner&#39;s 2025 Voice of the Customer report
                   shows Oracle 14 points ahead on UX scores. SAP Fiori has
                   improved dramatically but still carries inconsistency across
                   modules.
-                  <strong className="text-white/70"> Verdict:</strong> Oracle
+                  <strong className="text-foreground/80"> Verdict:</strong> Oracle
                   wins on user experience.
                 </p>
               </div>
@@ -305,10 +305,10 @@ export default function SAPvsOraclePage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Pricing and total cost of ownership
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Independent analysis consistently shows Oracle Cloud ERP
                   delivering 15 to 25% lower five-year TCO. The primary drivers
                   are faster implementation, lower customisation maintenance,
@@ -318,7 +318,7 @@ export default function SAPvsOraclePage() {
                     realistic ERP cost ranges for UK businesses
                   </Link>
                   .
-                  <strong className="text-white/70"> Verdict:</strong> Oracle
+                  <strong className="text-foreground/80"> Verdict:</strong> Oracle
                   typically wins on TCO.
                 </p>
               </div>

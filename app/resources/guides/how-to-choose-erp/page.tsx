@@ -558,7 +558,7 @@ export default function HowToChooseERPPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[20px] font-semibold text-white/90 mb-4">
+                <h3 className="text-[20px] font-semibold text-foreground mb-4">
                   SMEs (GBP 5m to GBP 30m turnover)
                 </h3>
                 <Prose>
@@ -625,7 +625,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[20px] font-semibold text-white/90 mb-4">
+                <h3 className="text-[20px] font-semibold text-foreground mb-4">
                   Mid-market (GBP 30m to GBP 250m turnover)
                 </h3>
                 <Prose>
@@ -690,7 +690,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[20px] font-semibold text-white/90 mb-4">
+                <h3 className="text-[20px] font-semibold text-foreground mb-4">
                   Enterprise (GBP 250m-plus turnover)
                 </h3>
                 <Prose>
@@ -766,7 +766,7 @@ export default function HowToChooseERPPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold text-white/85 mb-4">
+              <h3 className="text-[20px] font-semibold text-foreground mb-4">
                 Manufacturing
               </h3>
               <Prose>
@@ -797,7 +797,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold text-white/85 mb-4">
+              <h3 className="text-[20px] font-semibold text-foreground mb-4">
                 Food and beverage
               </h3>
               <Prose>
@@ -832,7 +832,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold text-white/85 mb-4">
+              <h3 className="text-[20px] font-semibold text-foreground mb-4">
                 Pharmaceutical and life sciences
               </h3>
               <Prose>
@@ -865,7 +865,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[20px] font-semibold text-white/85 mb-4">
+              <h3 className="text-[20px] font-semibold text-foreground mb-4">
                 Professional services
               </h3>
               <Prose>
@@ -909,7 +909,7 @@ export default function HowToChooseERPPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   1. Letting the vendor control the narrative
                 </h3>
                 <Prose>
@@ -936,7 +936,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   2. Underweighting total cost of ownership
                 </h3>
                 <Prose>
@@ -964,7 +964,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   3. Choosing software, then finding a way to justify it
                 </h3>
                 <Prose>
@@ -991,7 +991,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   4. Ignoring the implementation partner
                 </h3>
                 <Prose>
@@ -1020,7 +1020,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   5. Skipping the business case
                 </h3>
                 <Prose>
@@ -1059,7 +1059,7 @@ export default function HowToChooseERPPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-4">
+                <h3 className="text-[18px] font-semibold text-foreground mb-4">
                   You probably do not need a consultant if:
                 </h3>
                 <Prose>
@@ -1089,7 +1089,7 @@ export default function HowToChooseERPPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-8">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-4">
+                <h3 className="text-[18px] font-semibold text-foreground mb-4">
                   You probably do need a consultant if:
                 </h3>
                 <Prose>
@@ -1217,7 +1217,7 @@ export default function HowToChooseERPPage() {
         <div className="space-y-10">
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 How long does ERP selection take?
               </h3>
               <Prose>
@@ -1242,7 +1242,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 What are the most important ERP selection criteria?
               </h3>
               <Prose>
@@ -1267,7 +1267,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 Should I hire a consultant for ERP selection?
               </h3>
               <Prose>
@@ -1292,7 +1292,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 How many ERP vendors should I evaluate?
               </h3>
               <Prose>
@@ -1310,7 +1310,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 What should I include in an ERP RFP?
               </h3>
               <Prose>
@@ -1334,7 +1334,7 @@ export default function HowToChooseERPPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">
                 How do I evaluate ERP vendor demonstrations?
               </h3>
               <Prose>
@@ -1359,7 +1359,7 @@ export default function HowToChooseERPPage() {
       {/* Author attribution */}
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[14px] text-white/35 italic leading-relaxed">
+          <p className="text-[14px] text-muted/70 italic leading-relaxed">
             This guide was written by Laurence Phelan, Director at COGO
             Consulting. COGO is an independent business transformation
             consultancy providing{" "}

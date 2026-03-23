@@ -193,7 +193,7 @@ export default function OutgrownSagePage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed italic">
+          <p className="text-[15px] text-muted leading-relaxed italic">
             Lance Harcourt is a consultant at COGO Consulting. For an independent assessment of your options,{" "}
             <Link href="/services/erp-consulting/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">
               talk to an independent ERP consultant

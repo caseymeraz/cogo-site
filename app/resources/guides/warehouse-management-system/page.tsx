@@ -125,14 +125,14 @@ export default function WarehouseManagementSystemPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP EWM
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Large enterprises on SAP S/4HANA | GBP 150,000 to 500,000+
                   annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deep SAP ecosystem integration. The natural choice if you are
                   already running SAP S/4HANA, but requires deep SAP expertise.
                   If considering this route, our{" "}
@@ -147,14 +147,14 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Oracle WMS Cloud
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Mid-to-large businesses on Oracle ERP | GBP 100,000 to
                   350,000+ annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Strong analytics and machine learning capabilities. Good
                   integration with Oracle Cloud ERP and supply chain modules.
                 </p>
@@ -164,14 +164,14 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Manhattan Active WM
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   High-volume, complex distribution | GBP 120,000 to 400,000+
                   annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Cloud-native, unified platform with no version upgrades. You
                   always run the latest release, which is a real advantage for
                   businesses tired of costly upgrades every few years.
@@ -182,14 +182,14 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Blue Yonder WMS
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Omni-channel retailers and manufacturers | GBP 100,000 to
                   300,000+ annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   AI-powered demand sensing. Strong capabilities for
                   organisations managing both direct-to-consumer and B2B
                   fulfilment channels.
@@ -200,13 +200,13 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Korber WMS
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Mid-market manufacturers | GBP 50,000 to 200,000 annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Flexible, modular architecture. A solid mid-market option with
                   good configurability for diverse warehouse operations.
                 </p>
@@ -216,14 +216,14 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   OrderWise
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   UK SMEs (food, wholesale, distribution) | GBP 15,000 to
                   60,000 annually
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   UK-built with lower total cost of ownership. Often overlooked,
                   but for UK SMEs, particularly in food and wholesale, it
                   delivers strong WMS functionality at a fraction of the cost of
@@ -245,10 +245,10 @@ export default function WarehouseManagementSystemPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Inventory tracking and visibility
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Real-time accuracy down to the bin level. Lot/batch tracking,
                   serial number management, and expiry date tracking.
                   Best-performing warehouses achieve 99.5%+ accuracy (Aberdeen
@@ -260,10 +260,10 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Picking and packing
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Support for discrete, batch, wave, zone, and cluster picking
                   strategies. Cartonisation, packing validation via barcode
                   scan, and automated label generation.
@@ -274,10 +274,10 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   ERP integration
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Non-negotiable. Your WMS must integrate with your ERP for
                   sales orders, purchase orders, inventory adjustments,
                   manufacturing orders, and master data. Poor integration is the
@@ -289,10 +289,10 @@ export default function WarehouseManagementSystemPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Barcode and RFID
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Barcode scanning is table stakes for any WMS in 2026. RFID is
                   more situational but increasingly viable as tag costs have
                   dropped roughly 60% over the past five years (IDTechEx, 2025).

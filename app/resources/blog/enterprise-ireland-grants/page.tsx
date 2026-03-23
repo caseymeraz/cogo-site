@@ -228,7 +228,7 @@ export default function EnterpriseIrelandGrantsPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed italic">
+          <p className="text-[15px] text-muted leading-relaxed italic">
             Lance Harcourt is a consultant at COGO Consulting, advising Irish businesses on{" "}
             <Link href="/services/business-transformation/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">
               our business transformation approach

@@ -60,9 +60,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">1</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">Project initiation</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">Project initiation</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Before anything else, we need to agree on what this project is actually for. A surprising number of software selections begin without a clear answer to: "What problem are we solving?"
                   </p>
@@ -84,9 +84,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">2</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">Scoping and requirements</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">Scoping and requirements</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     This is the most important step in the entire process, and it is the one most organisations rush through or outsource to the wrong people.
                   </p>
@@ -109,9 +109,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">3</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">System integrator shortlist</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">System integrator shortlist</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     The enterprise software market is crowded. Gartner's 2024 Magic Quadrant for Cloud ERP lists over 20 vendors in the mid-market space alone (Gartner, 2024). Add in niche platforms and the number runs into the hundreds. You cannot evaluate them all.
                   </p>
@@ -136,9 +136,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">4</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">RFP preparation</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">RFP preparation</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     A good RFP does two things: it forces vendors to respond to your specific requirements (not their generic marketing material), and it creates a level playing field so you can compare responses like-for-like.
                   </p>
@@ -164,9 +164,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">5</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">Vendor selection</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">Vendor selection</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Each vendor is scored against your weighted requirements using{" "}
                     <Link href="/resources/templates/erp-vendor-scorecard/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">our ERP vendor evaluation scorecard template</Link>. Your team participates in every evaluation session, and every score is documented with rationale.
@@ -188,9 +188,9 @@ export default function SoftwareSelectionPage() {
               <div className="p-7">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="flex items-center justify-center w-10 h-10 rounded-full bg-accent/10 text-accent text-[14px] font-semibold">6</span>
-                  <h3 className="text-[18px] font-semibold text-white/90">Contract negotiation</h3>
+                  <h3 className="text-[18px] font-semibold text-foreground">Contract negotiation</h3>
                 </div>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Enterprise software contracts are written by the vendor's legal team to protect the vendor. We have reviewed hundreds of them and know where the traps sit: uncapped price escalation clauses, vague implementation milestones, inadequate service level commitments, restrictive data portability terms, and penalty structures that punish you for the vendor's failures.
                   </p>
@@ -215,10 +215,10 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Automated requirements analysis
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Our AI tools process your existing documentation - process maps, system documentation, audit reports, regulatory filings - to identify requirements that your team might miss in workshop settings. In a recent engagement with a food manufacturer, our AI-assisted analysis identified 47 regulatory requirements that had not been captured in the initial workshops.
                 </p>
               </div>
@@ -227,10 +227,10 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   RFP response scoring
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   When vendors return 200-page RFP responses, someone has to read them. Our AI tools pre-score responses against your weighted requirements, flagging gaps, inconsistencies, and non-answers. Your evaluation team still reviews everything, but they start with a structured analysis rather than a blank scorecard.
                 </p>
               </div>
@@ -239,10 +239,10 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Total cost of ownership modelling
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Our AI-enabled TCO models pull together licensing costs, implementation fees, support charges, infrastructure costs, and the hidden costs vendors do not mention (data migration, training, customisation, integration). The model runs scenarios across five and ten-year horizons so you see the real cost, not the first-year teaser price.
                 </p>
               </div>
@@ -251,10 +251,10 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">
                   Market intelligence
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We continuously monitor vendor financials, product roadmaps, customer satisfaction data, and analyst reports. This intelligence is structured and searchable, giving us - and you - a current, evidence-based view of the market rather than relying on reports written six months ago.
                 </p>
               </div>
@@ -262,7 +262,7 @@ export default function SoftwareSelectionPage() {
           </Reveal>
         </div>
         <Reveal>
-          <p className="text-[14px] text-white/40 leading-relaxed mt-8">
+          <p className="text-[14px] text-muted leading-relaxed mt-8">
             This is not AI replacing human judgement. It is AI handling the volume and consistency problems so your evaluation team can focus on the decisions that actually require experience and business knowledge.
           </p>
         </Reveal>
@@ -309,8 +309,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">Industry experience</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">Industry experience</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   Not "we have done projects in your sector" - we want evidence. How many implementations in your specific industry? What were the outcomes? Can they provide references from organisations of similar size and complexity?
                 </p>
               </div>
@@ -319,8 +319,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">Team quality</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">Team quality</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   An SI's proposal often features their senior people. The team that does the work is frequently more junior. We insist on meeting the proposed project team and verifying their experience against your project's requirements.
                 </p>
               </div>
@@ -329,8 +329,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">Implementation methodology</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">Implementation methodology</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   Every SI claims to have a proven methodology. We review the detail: how they manage scope, handle change requests, approach data migration, structure testing, and transition to support. The rigour of their methodology tells you a lot about how the project will actually run.
                 </p>
               </div>
@@ -339,8 +339,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">Commercial model</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">Commercial model</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   Fixed price, time and materials, or hybrid? We analyse the commercial structure, benchmark it against market rates, and identify where costs are likely to escalate. A "fixed price" proposal with 150 assumptions is not really fixed price.
                 </p>
               </div>
@@ -349,8 +349,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.4}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">References and track record</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">References and track record</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   We do not rely on the references the SI provides. We independently identify organisations that have worked with the SI on comparable projects and have candid conversations about the experience.
                 </p>
               </div>
@@ -359,8 +359,8 @@ export default function SoftwareSelectionPage() {
           <Reveal delay={0.5}>
             <SpotlightCard>
               <div className="p-7">
-                <h3 className="text-[18px] font-semibold text-white/90 mb-3">Cultural fit</h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <h3 className="text-[18px] font-semibold text-foreground mb-3">Cultural fit</h3>
+                <p className="text-[14px] text-muted leading-relaxed">
                   An SI that works well with a large enterprise may struggle with a mid-market organisation where decisions are made faster and governance is lighter. We assess how the SI's working style aligns with your organisation's culture.
                 </p>
               </div>
@@ -368,7 +368,7 @@ export default function SoftwareSelectionPage() {
           </Reveal>
         </div>
         <Reveal>
-          <p className="text-[14px] text-white/40 leading-relaxed mt-8">
+          <p className="text-[14px] text-muted leading-relaxed mt-8">
             The output is a scored evaluation that lets you compare system integrators with the same rigour you applied to the software itself.
           </p>
         </Reveal>
@@ -411,40 +411,40 @@ export default function SoftwareSelectionPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">How long does a software selection process take?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">How long does a software selection process take?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 A well-run selection process typically takes 12 to 16 weeks from project initiation to vendor recommendation. Contract negotiation adds another four to eight weeks. Timelines vary depending on the complexity of your requirements, the number of business units involved, and how quickly your internal team can commit time to workshops and evaluations. Rushing the process to meet an artificial deadline almost always leads to a worse decision.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">How much does independent software selection consulting cost?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">How much does independent software selection consulting cost?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 Our fees for a full 6-step engagement typically range from EUR 50,000 to EUR 150,000, depending on complexity and scope. That sounds significant until you compare it to the cost of choosing the wrong system. With average ERP implementations costing USD 9.5 million (Panorama Consulting, 2024), a 15% saving through better selection and negotiation covers our fees several times over.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">Can you help with software other than ERP?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">Can you help with software other than ERP?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 Yes. Our methodology applies to any enterprise software decision: CRM, WMS, EQMS, LIMS, HRIS, and specialist industry platforms. The principles are the same - structured requirements, objective evaluation, and independent advice. If you are choosing a system that will cost six figures or more, the process should be rigorous.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">What if we have already shortlisted vendors?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">What if we have already shortlisted vendors?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 That is fine. We regularly join processes already underway. We can pick up from whatever stage you have reached - validating your shortlist, writing the RFP, running the evaluation, or negotiating the contract. What we will not do is rubber-stamp a decision that has already been made. If your shortlist is missing a vendor that should be there, we will tell you.
               </p>
             </div>
           </Reveal>
           <Reveal>
             <div>
-              <h3 className="text-[18px] font-semibold text-white/85 mb-3">Do you work with specific ERP vendors or platforms?</h3>
-              <p className="text-[15px] text-white/50 leading-relaxed">
+              <h3 className="text-[18px] font-semibold text-foreground mb-3">Do you work with specific ERP vendors or platforms?</h3>
+              <p className="text-[15px] text-muted leading-relaxed">
                 No, and that is the point. We hold no certifications, partnerships, or reseller agreements with any vendor. We maintain current knowledge of SAP, Microsoft, Oracle, Infor, IFS, Sage, Epicor, and others, plus industry-specific systems for food, pharma, and professional services. Our recommendations are based on fit, not affiliation. For more, see{" "}
                 <Link href="/resources/guides/best-erp-systems/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">our independent guide to the best ERP systems</Link>.
               </p>

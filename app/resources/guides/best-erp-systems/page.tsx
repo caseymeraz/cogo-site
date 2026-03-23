@@ -74,82 +74,82 @@ export default function BestERPSystemsPage() {
         />
         <Reveal>
           <div className="overflow-x-auto -mx-6 px-6">
-            <table className="w-full text-[13px] text-white/55 border-collapse">
+            <table className="w-full text-[13px] text-muted border-collapse">
               <thead>
                 <tr className="border-b border-white/10 text-left">
-                  <th className="py-3 pr-4 text-white/80 font-medium">System</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">Best for</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">UK pricing (per user/month)</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">Deployment</th>
-                  <th className="py-3 pr-4 text-white/80 font-medium">Our rating</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">System</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Best for</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">UK pricing (per user/month)</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Deployment</th>
+                  <th className="py-3 pr-4 text-foreground font-medium">Our rating</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">SAP S/4HANA</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">SAP S/4HANA</td>
                   <td className="py-3 pr-4">Large enterprises, complex operations</td>
                   <td className="py-3 pr-4">GBP 150 to 300+</td>
                   <td className="py-3 pr-4">Cloud, on-premise, hybrid</td>
                   <td className="py-3 pr-4 text-accent">9/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Oracle Cloud ERP</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Oracle Cloud ERP</td>
                   <td className="py-3 pr-4">Large enterprises, finance-heavy</td>
                   <td className="py-3 pr-4">GBP 140 to 275+</td>
                   <td className="py-3 pr-4">Cloud</td>
                   <td className="py-3 pr-4 text-accent">8.5/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Microsoft Dynamics 365</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Microsoft Dynamics 365</td>
                   <td className="py-3 pr-4">Mid-market, Microsoft environments</td>
                   <td className="py-3 pr-4">GBP 50 to 150</td>
                   <td className="py-3 pr-4">Cloud, hybrid</td>
                   <td className="py-3 pr-4 text-accent">8.5/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">NetSuite</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">NetSuite</td>
                   <td className="py-3 pr-4">Fast-growing mid-market</td>
                   <td className="py-3 pr-4">GBP 80 to 200</td>
                   <td className="py-3 pr-4">Cloud</td>
                   <td className="py-3 pr-4 text-accent">8/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Sage X3</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Sage X3</td>
                   <td className="py-3 pr-4">UK mid-market manufacturers</td>
                   <td className="py-3 pr-4">GBP 60 to 120</td>
                   <td className="py-3 pr-4">Cloud, on-premise</td>
                   <td className="py-3 pr-4 text-accent">7.5/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Infor M3</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Infor M3</td>
                   <td className="py-3 pr-4">Process manufacturing</td>
                   <td className="py-3 pr-4">GBP 100 to 200</td>
                   <td className="py-3 pr-4">Cloud, on-premise</td>
                   <td className="py-3 pr-4 text-accent">8/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">IFS Cloud</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">IFS Cloud</td>
                   <td className="py-3 pr-4">Asset-intensive industries</td>
                   <td className="py-3 pr-4">GBP 100 to 200</td>
                   <td className="py-3 pr-4">Cloud</td>
                   <td className="py-3 pr-4 text-accent">8/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Epicor Kinetic</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Epicor Kinetic</td>
                   <td className="py-3 pr-4">Discrete manufacturing</td>
                   <td className="py-3 pr-4">GBP 70 to 150</td>
                   <td className="py-3 pr-4">Cloud, on-premise</td>
                   <td className="py-3 pr-4 text-accent">7.5/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">Acumatica</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">Acumatica</td>
                   <td className="py-3 pr-4">SMEs, flexible licensing</td>
                   <td className="py-3 pr-4">Consumption-based (~GBP 800/mo)</td>
                   <td className="py-3 pr-4">Cloud</td>
                   <td className="py-3 pr-4 text-accent">7.5/10</td>
                 </tr>
-                <tr className="border-b border-white/[0.04]">
-                  <td className="py-3 pr-4 text-white/80">SYSPRO</td>
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 text-foreground">SYSPRO</td>
                   <td className="py-3 pr-4">Small to mid-size manufacturers</td>
                   <td className="py-3 pr-4">GBP 50 to 100</td>
                   <td className="py-3 pr-4">Cloud, on-premise</td>
@@ -234,14 +234,14 @@ export default function BestERPSystemsPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   1. SAP S/4HANA
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: 500+ employees, complex multi-site operations,
                   regulated industries | Rating: 9/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     SAP remains the dominant name in enterprise ERP globally.
                     S/4HANA is its current-generation platform, built on an
@@ -250,13 +250,13 @@ export default function BestERPSystemsPage() {
                     across finance, procurement, manufacturing, and supply chain.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong> Cloud
+                    <strong className="text-foreground/80">UK pricing:</strong> Cloud
                     typically GBP 150 to 300+ per user per month. On-premise
                     often GBP 500,000+ upfront. Implementation costs for
                     mid-market typically GBP 500,000 to 2 million+.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> If you
+                    <strong className="text-foreground/80">Verdict:</strong> If you
                     need deep functionality across a complex operation, SAP is
                     hard to beat. But only choose SAP if the complexity of your
                     operations genuinely demands it.
@@ -270,14 +270,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   2. Oracle Cloud ERP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Large organisations, finance-heavy, multi-entity |
                   Rating: 8.5/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Oracle has aggressively moved its customer base to cloud with
                     Fusion Cloud ERP, a genuinely cloud-native platform. Oracle
@@ -286,13 +286,13 @@ export default function BestERPSystemsPage() {
                     management modules.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 140 to 275+ per user per month. Five-year TCO
                     for mid-market (200 to 500 users) often GBP 1.5 million to 4
                     million.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> A
+                    <strong className="text-foreground/80">Verdict:</strong> A
                     serious platform for serious organisations. If your primary
                     pain is financial consolidation or procurement at scale, it
                     deserves a place on your shortlist. For a deeper comparison,
@@ -311,14 +311,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   3. Microsoft Dynamics 365
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Mid-market (50 to 1,000 employees), Microsoft
                   ecosystem | Rating: 8.5/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Microsoft&#39;s modular ERP and CRM platform. Familiar
                     interface for Microsoft users, which reduces training time
@@ -327,13 +327,13 @@ export default function BestERPSystemsPage() {
                     Strong Power Platform integration.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Business Central Essentials from approximately GBP 52 per
                     user per month. Finance from approximately GBP 135.
                     Implementation typically GBP 150,000 to 800,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> The safe
+                    <strong className="text-foreground/80">Verdict:</strong> The safe
                     bet for mid-market UK businesses, and that is not a
                     criticism. The Microsoft ecosystem integration is a genuine
                     competitive advantage. Be ruthless about partner selection.
@@ -347,14 +347,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   4. NetSuite
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Fast-growing mid-market (50 to 500 employees) |
                   Rating: 8/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     One of the original cloud ERP systems with over 38,000
                     customers globally. Unified system covering ERP, CRM, and
@@ -362,13 +362,13 @@ export default function BestERPSystemsPage() {
                     scale quickly, add subsidiaries, or expand internationally.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 80 to 200 per user per month, plus platform
                     fee of GBP 800 to 1,500 per month. Mid-market deployment
                     typically GBP 200,000 to 600,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> The
+                    <strong className="text-foreground/80">Verdict:</strong> The
                     right choice for growth-stage businesses that need a unified
                     cloud platform and are not primarily manufacturers.
                   </p>
@@ -381,14 +381,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   5. Sage X3
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: UK mid-market manufacturers and distributors (100 to
                   500 employees) | Rating: 7.5/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Headquartered in Newcastle with deep understanding of UK tax,
                     regulatory, and business requirements. Good manufacturing
@@ -397,12 +397,12 @@ export default function BestERPSystemsPage() {
                     similar scale.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 60 to 120 per user per month for cloud.
                     Implementation GBP 100,000 to 400,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> An
+                    <strong className="text-foreground/80">Verdict:</strong> An
                     underrated option for UK manufacturers and distributors.
                     Genuinely understands UK business requirements.
                   </p>
@@ -415,14 +415,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.25}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   6. Infor M3
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Process manufacturing (250 to 2,000+ employees) |
                   Rating: 8/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     A specialist ERP built for process manufacturing, food and
                     beverage, fashion, chemicals, and distribution. Deep
@@ -431,12 +431,12 @@ export default function BestERPSystemsPage() {
                     2024 MarketScape for Process Manufacturing ERP.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 100 to 200 per user per month. Implementation
                     GBP 300,000 to 1 million.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> For food
+                    <strong className="text-foreground/80">Verdict:</strong> For food
                     manufacturers, genuinely one of the best options available.
                     But it is a specialist tool. Read more about{" "}
                     <Link href="/industries/food-manufacturing/">
@@ -453,14 +453,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   7. IFS Cloud
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Asset-intensive industries (500 to 5,000+
                   employees) | Rating: 8/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     A single platform covering ERP, Enterprise Asset Management,
                     and Field Service Management. IFS reported 21% ARR growth in
@@ -468,12 +468,12 @@ export default function BestERPSystemsPage() {
                     capabilities integrated directly into the ERP.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 100 to 200 per user per month. Implementation
                     GBP 300,000 to 1 million+.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> If you
+                    <strong className="text-foreground/80">Verdict:</strong> If you
                     are in aerospace, energy, or construction and need integrated
                     ERP, asset management, and field service, IFS Cloud is hard
                     to beat.
@@ -487,14 +487,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.35}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   8. Epicor Kinetic
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Discrete manufacturers and distributors (50 to
                   1,000 employees) | Rating: 7.5/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Built specifically for discrete manufacturers, distributors,
                     and building supply companies. Deep MRP, shop floor control,
@@ -502,12 +502,12 @@ export default function BestERPSystemsPage() {
                     manufacturing mid-market.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 70 to 150 per user per month. Implementation
                     GBP 150,000 to 600,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> If you
+                    <strong className="text-foreground/80">Verdict:</strong> If you
                     are a UK discrete manufacturer in the 50 to 500 employee
                     range, Epicor Kinetic deserves serious consideration.
                   </p>
@@ -520,14 +520,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.4}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   9. Acumatica
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: SMEs wanting flexible licensing (20 to 500
                   employees) | Rating: 7.5/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Consumption-based licensing rather than per-user pricing,
                     which makes it attractive for organisations where many people
@@ -535,12 +535,12 @@ export default function BestERPSystemsPage() {
                     distribution, construction, and retail functionality.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Consumption-based, starting from approximately GBP 800 to
                     1,500 per month. Implementation GBP 100,000 to 400,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> The
+                    <strong className="text-foreground/80">Verdict:</strong> The
                     disruptor on this list. The pricing model is genuinely
                     appealing. The main risk is the relatively thin UK partner
                     ecosystem.
@@ -554,14 +554,14 @@ export default function BestERPSystemsPage() {
           <Reveal delay={0.45}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-1">
+                <h3 className="text-[17px] font-semibold text-foreground mb-1">
                   10. SYSPRO
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Best for: Small to mid-size manufacturers (50 to 500
                   employees) | Rating: 7/10
                 </p>
-                <div className="text-[14px] text-white/50 leading-relaxed space-y-3">
+                <div className="text-[14px] text-muted leading-relaxed space-y-3">
                   <p>
                     Purpose-built for small to mid-size manufacturers and
                     distributors. Good balance of manufacturing depth and ease of
@@ -569,12 +569,12 @@ export default function BestERPSystemsPage() {
                     affordable than most competitors at this functional level.
                   </p>
                   <p>
-                    <strong className="text-white/70">UK pricing:</strong>{" "}
+                    <strong className="text-foreground/80">UK pricing:</strong>{" "}
                     Typically GBP 50 to 100 per user per month. Implementation
                     GBP 80,000 to 300,000.
                   </p>
                   <p>
-                    <strong className="text-white/70">Verdict:</strong> A solid,
+                    <strong className="text-foreground/80">Verdict:</strong> A solid,
                     unpretentious ERP for manufacturers who do not need the
                     complexity or cost of SAP or Infor. Should be on your
                     shortlist alongside Sage X3 and Epicor Kinetic.

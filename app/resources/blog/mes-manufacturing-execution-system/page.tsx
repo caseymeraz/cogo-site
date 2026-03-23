@@ -47,7 +47,7 @@ export default function MesManufacturingExecutionSystemPage() {
         <h3>Should we implement MES before or after an ERP upgrade?</h3>
         <p>If your ERP is stable, implement MES first. If your ERP is being replaced, implement them together or ERP first. MES depends on reliable work orders, BOMs, and routings from your ERP.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Getting the MES-ERP boundary right is critical.</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Let&apos;s talk</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Getting the MES-ERP boundary right is critical.</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Let&apos;s talk</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

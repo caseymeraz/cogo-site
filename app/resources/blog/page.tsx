@@ -278,17 +278,17 @@ export default function BlogIndexPage() {
           {posts.map((post, i) => (
             <Reveal key={post.href} delay={i < 6 ? i * 0.05 : 0}>
               <Link href={post.href} className="group block">
-                <article className="border border-white/[0.06] rounded-2xl p-8 hover:border-white/[0.12] transition-colors duration-300">
+                <article className="border border-border rounded-2xl p-8 hover:border-border transition-colors duration-300">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <p className="text-[12px] text-white/30 font-medium">
+                    <p className="text-[12px] text-muted/70 font-medium">
                       {post.author}
                     </p>
-                    <p className="text-[12px] text-white/30">{post.date}</p>
+                    <p className="text-[12px] text-muted/70">{post.date}</p>
                   </div>
-                  <h2 className="text-[18px] font-semibold text-white/90 tracking-[-0.01em] leading-snug mb-3 group-hover:text-accent transition-colors duration-300">
+                  <h2 className="text-[18px] font-semibold text-foreground tracking-[-0.01em] leading-snug mb-3 group-hover:text-accent transition-colors duration-300">
                     {post.title}
                   </h2>
-                  <p className="text-[14px] text-white/45 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     {post.description}
                   </p>
                 </article>

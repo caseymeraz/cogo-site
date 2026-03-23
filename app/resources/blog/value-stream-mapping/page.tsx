@@ -84,7 +84,7 @@ export default function ValueStreamMappingPage() {
 
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[15px] text-white/55 leading-relaxed">
+          <p className="text-[15px] text-muted leading-relaxed">
             <strong>Want to map your processes before making technology decisions?</strong>{" "}
             <Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to us</Link>{" "}
             about <Link href="/services/business-transformation/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">our business transformation approach</Link>.

@@ -93,10 +93,10 @@ export default function MasterDataManagementPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Data migration is the top risk
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   A 2024 survey by Panorama Consulting found that 38% of ERP
                   implementations experienced significant issues related to data
                   migration and data quality. It was the single most cited cause
@@ -108,10 +108,10 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Bad data breaks integrations
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   If your product codes do not match between ERP and WMS,
                   picking lists fail. If customer records are inconsistent
                   between ERP and CRM, your sales team will not trust either
@@ -123,10 +123,10 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Bad data erodes user trust
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Users make up their minds about a new ERP within the first two
                   weeks. If they find three duplicate records with different
                   addresses, they stop trusting the system and revert to
@@ -138,10 +138,10 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Good MDM reduces ongoing costs
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   IBM&#39;s research estimates the cost of fixing a data error
                   increases tenfold for every stage it progresses through the
                   data lifecycle. Fixing data at the source is an order of
@@ -204,13 +204,13 @@ export default function MasterDataManagementPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Informatica MDM
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Large enterprises, multi-domain MDM | Market leader
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Deepest feature set in the market. Cloud or on-premise
                   deployment. The standard choice for large, complex MDM
                   requirements.
@@ -221,13 +221,13 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.05}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   SAP Master Data Governance
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   SAP-centric organisations | Native S/4HANA integration
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The natural choice if you are running SAP S/4HANA. Available
                   on SAP BTP (cloud) or on-premise.
                 </p>
@@ -237,13 +237,13 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Profisee Platform
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Mid-market, Microsoft environments | Cost-effective
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Fast deployment on Azure. A strong mid-market option,
                   particularly for organisations already in the Microsoft
                   ecosystem.
@@ -254,14 +254,14 @@ export default function MasterDataManagementPage() {
           <Reveal delay={0.15}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Stibo Systems STEP
                 </h3>
                 <p className="text-[13px] text-accent/80 mb-3">
                   Product-heavy organisations (retail, manufacturing) | Strong
                   PIM + MDM combination
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Excellent for organisations where product information
                   management is as important as traditional master data
                   governance.

@@ -69,10 +69,10 @@ export default function TemplatesPage() {
                 <SpotlightCard className="p-8 hover:border-white/10 transition-colors">
                   <div className="flex items-start justify-between gap-6">
                     <div>
-                      <h2 className="text-[18px] font-medium text-white/90 mb-3 tracking-[-0.01em]">
+                      <h2 className="text-[18px] font-medium text-foreground mb-3 tracking-[-0.01em]">
                         {template.title}
                       </h2>
-                      <p className="text-[15px] text-white/45 leading-relaxed">
+                      <p className="text-[15px] text-muted leading-relaxed">
                         {template.description}
                       </p>
                     </div>

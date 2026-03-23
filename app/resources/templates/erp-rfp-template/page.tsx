@@ -96,10 +96,10 @@ export default function ERPRFPTemplatePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
             </div>
-            <h3 className="text-[18px] font-medium text-white/85 mb-3">
+            <h3 className="text-[18px] font-medium text-foreground mb-3">
               Download the ERP RFP template
             </h3>
-            <p className="text-[14px] text-white/40 mb-6 max-w-md mx-auto">
+            <p className="text-[14px] text-muted mb-6 max-w-md mx-auto">
               Get in touch to receive a copy of this template, tailored to your industry and requirements.
             </p>
             <Link

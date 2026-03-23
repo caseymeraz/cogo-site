@@ -58,7 +58,7 @@ export default function SmartManufacturingPage() {
         <h3>Do we need to replace our equipment?</h3>
         <p>No. Retrofit IoT sensors and edge computing devices can connect virtually any equipment.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Want help building your smart manufacturing roadmap?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Want help building your smart manufacturing roadmap?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

@@ -85,7 +85,7 @@ export default function SAPConsultingPage() {
         {/* S/4HANA */}
         <Reveal>
           <div className="mb-16">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               SAP S/4HANA advisory and migration support
             </h3>
             <Prose>
@@ -138,7 +138,7 @@ export default function SAPConsultingPage() {
         {/* SAP Reboot */}
         <Reveal>
           <div className="mb-16">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               SAP Reboot - fixing underperforming SAP systems
             </h3>
             <Prose>
@@ -184,7 +184,7 @@ export default function SAPConsultingPage() {
         {/* SAP Training */}
         <Reveal>
           <div className="mb-16">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               SAP training (SAP Enable Now, WalkMe)
             </h3>
             <Prose>
@@ -227,7 +227,7 @@ export default function SAPConsultingPage() {
         {/* Supply Chain */}
         <Reveal>
           <div className="mb-16">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               SAP supply chain optimisation (Rest4rt)
             </h3>
             <Prose>
@@ -273,17 +273,17 @@ export default function SAPConsultingPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   RISE with SAP
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Aimed at existing SAP customers, particularly those on ECC who
                   need to migrate to S/4HANA. Bundles S/4HANA Cloud (private
                   edition), SAP Business Technology Platform (BTP), SAP Signavio
                   for process analysis, and infrastructure hosting into a single
                   subscription contract.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   RISE simplifies the commercial structure, but it does not
                   simplify the actual migration work. You still need to assess
                   your custom code, cleanse your data, redesign your processes,
@@ -297,16 +297,16 @@ export default function SAPConsultingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   GROW with SAP
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Aimed at new SAP customers, typically mid-market organisations
                   adopting SAP for the first time. Bundles S/4HANA Cloud (public
                   edition) with pre-configured best practices, community
                   support, and a lower entry price point.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   The trade-off is less customisation - public cloud means you
                   run SAP&apos;s standard processes with limited modification.
                 </p>
@@ -318,10 +318,10 @@ export default function SAPConsultingPage() {
         <Reveal>
           <SpotlightCard>
             <div className="p-6">
-              <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 SAP Business Technology Platform (BTP)
               </h3>
-              <p className="text-[14px] text-white/50 leading-relaxed">
+              <p className="text-[14px] text-muted leading-relaxed">
                 BTP is SAP&apos;s platform for building extensions,
                 integrations, and custom applications on top of S/4HANA. It
                 includes SAP Integration Suite, SAP Build (low-code tools), and
@@ -355,7 +355,7 @@ export default function SAPConsultingPage() {
 
         <Reveal>
           <div className="mb-12">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               Independent and client-side, by design
             </h3>
             <Prose>
@@ -389,7 +389,7 @@ export default function SAPConsultingPage() {
 
         <Reveal>
           <div className="mb-12">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               Westernacher partnership
             </h3>
             <Prose>
@@ -425,7 +425,7 @@ export default function SAPConsultingPage() {
 
         <Reveal>
           <div className="mb-12">
-            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/85 mb-4">
+            <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground mb-4">
               SAP project management and governance
             </h3>
             <Prose>
@@ -473,10 +473,10 @@ export default function SAPConsultingPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Food and dairy
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Ireland&apos;s food and dairy sector represents EUR 16.3
                   billion in exports (Bord Bia, 2024), and SAP is the dominant
                   ERP in mid-to-large food manufacturers. Batch management and
@@ -484,7 +484,7 @@ export default function SAPConsultingPage() {
                   co-product handling, and quality management are operational
                   necessities.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We have worked with food and dairy businesses running SAP
                   PP-PI, SAP QM, and SAP EWM. We understand the intersection
                   between SAP configuration and BRCGS, FSSC 22000, and retailer
@@ -502,16 +502,16 @@ export default function SAPConsultingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Pharmaceutical and life sciences
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   GxP compliance, 21 CFR Part 11 requirements, serialisation
                   under the EU Falsified Medicines Directive, and computer
                   system validation (CSV) under GAMP 5 impose constraints on
                   how SAP is configured, validated, and maintained.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Ireland is home to 9 of the top 10 global pharmaceutical
                   companies and produces over EUR 85 billion in pharma exports
                   annually (IDA Ireland, 2024). Our pharma SAP consultants
@@ -530,10 +530,10 @@ export default function SAPConsultingPage() {
           <Reveal delay={0.2}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Healthcare
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Healthcare organisations face unique challenges with SAP,
                   particularly around patient data protection under GDPR,
                   integration with clinical systems (EPR, PAS, LIMS), and the
@@ -548,10 +548,10 @@ export default function SAPConsultingPage() {
           <Reveal delay={0.3}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Manufacturing
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   SAP remains the ERP of choice for large-scale manufacturers.
                   The platform&apos;s depth in production planning (PP),
                   materials management (MM), plant maintenance (PM), and quality
@@ -577,20 +577,20 @@ export default function SAPConsultingPage() {
           <Reveal delay={0}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Laurence Phelan
                 </h3>
                 <p className="text-[12px] uppercase tracking-wider text-accent mb-3">
                   Director
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Laurence has spent over 20 years in ERP and business
                   transformation consulting, with deep expertise in SAP across
                   multiple industries. He founded COGO to address a gap he had
                   seen repeatedly: businesses making multi-million-euro SAP
                   decisions with no independent advice in the room.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Laurence&apos;s approach is straightforward: understand the
                   business first, then work out what the technology needs to do.
                   He is a firm believer that most SAP problems are business
@@ -603,13 +603,13 @@ export default function SAPConsultingPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                <h3 className="text-[17px] font-semibold text-foreground mb-2">
                   Lance Harcourt
                 </h3>
                 <p className="text-[12px] uppercase tracking-wider text-accent mb-3">
                   SAP Practice Lead
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   Lance brings over 15 years of hands-on SAP experience
                   spanning S/4HANA, ECC, supply chain management, and SAP
                   project management. His background is unusual in that he has
@@ -617,7 +617,7 @@ export default function SAPConsultingPage() {
                   giving him a clear understanding of where SIs cut corners and
                   where clients need to push back.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   His clients appreciate his directness. Lance tells you what
                   you need to hear, not what you want to hear. In SAP projects,
                   that is the most valuable quality a consultant can have.
@@ -640,10 +640,10 @@ export default function SAPConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Irish food manufacturer: S/4HANA migration delivered on budget
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   A mid-sized Irish food manufacturer (EUR 180m revenue, 600 SAP
                   users) needed to migrate from ECC 6.0 to S/4HANA. Their
                   incumbent SI had quoted a 24-month programme at EUR 4.2
@@ -652,7 +652,7 @@ export default function SAPConsultingPage() {
                   to re-implement functionality the client did not use and would
                   never need.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   Our revised scope and competitive SI selection process
                   resulted in a 16-month programme delivered for EUR 2.8
                   million - a 33% saving. Twelve months post go-live, the
@@ -666,16 +666,16 @@ export default function SAPConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   UK pharma company: SAP Reboot after failed implementation
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   A UK-based pharmaceutical company (EUR 320m revenue) had gone
                   live on SAP ECC three years earlier, but the system was
                   significantly underperforming. The board was considering a EUR
                   3 million re-implementation.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We conducted a diagnostic and recommended an SAP Reboot
                   instead - a targeted remediation programme delivered in 9
                   months for EUR 650,000. Within six months of completion, the
@@ -690,17 +690,17 @@ export default function SAPConsultingPage() {
           <Reveal>
             <SpotlightCard>
               <div className="p-6">
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Dairy co-operative: independent SAP selection advisory
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed mb-3">
+                <p className="text-[14px] text-muted leading-relaxed mb-3">
                   A large Irish dairy co-operative was evaluating whether to
                   replace its legacy ERP with SAP S/4HANA or an alternative
                   platform. Three SAP partners had already pitched, each
                   recommending SAP with project budgets ranging from EUR 6
                   million to EUR 12 million.
                 </p>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We ran an independent evaluation process, benchmarking SAP
                   against two alternative platforms across 400+ weighted
                   requirements. SAP S/4HANA was ultimately selected, but the
@@ -726,10 +726,10 @@ export default function SAPConsultingPage() {
         <div className="space-y-12">
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What is SAP consulting?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 SAP consulting covers a range of advisory and technical services
                 related to SAP software. This includes strategic advice on
                 whether SAP is right for your organisation, planning and
@@ -745,10 +745,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What does an SAP consultant do?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 An SAP consultant helps organisations plan, implement, and
                 optimise SAP systems. The role varies depending on whether the
                 consultant works for a system integrator (in which case they
@@ -765,10 +765,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How much does SAP consulting cost?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 SAP consulting costs vary significantly depending on the type of
                 engagement. Independent advisory engagements (strategy,
                 selection, implementation oversight) typically range from EUR
@@ -787,10 +787,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What is SAP S/4HANA?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 SAP S/4HANA is SAP&apos;s current-generation ERP platform,
                 replacing the older ECC (ERP Central Component) system. It runs
                 exclusively on the SAP HANA in-memory database, which delivers
@@ -808,10 +808,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What is the difference between RISE with SAP and GROW with SAP?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 RISE with SAP is designed for existing SAP customers migrating
                 to S/4HANA. It bundles S/4HANA Cloud (private edition), SAP
                 BTP, SAP Signavio, and infrastructure into a single
@@ -829,10 +829,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What is SAP BTP?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 SAP Business Technology Platform (BTP) is SAP&apos;s platform
                 for extending S/4HANA without modifying the core system. It
                 includes integration tools (SAP Integration Suite), low-code
@@ -849,10 +849,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How long does an SAP implementation take?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Timelines depend on scope, complexity, and organisational
                 readiness. A focused, single-site SAP implementation for a
                 mid-market organisation can be delivered in 9 to 14 months.
@@ -869,10 +869,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 Do I need an independent SAP consultant?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 If your SAP programme is a significant investment for your
                 organisation (and it almost certainly is), independent advice
                 pays for itself. Your implementation partner is incentivised to
@@ -888,10 +888,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 What industries use SAP?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 SAP is used across virtually every industry, but it has
                 particular strength in manufacturing, food and beverage,
                 pharmaceuticals, chemicals, utilities, oil and gas, retail, and
@@ -909,10 +909,10 @@ export default function SAPConsultingPage() {
 
           <Reveal>
             <div>
-              <h3 className="text-[17px] font-semibold text-white/85 mb-3">
+              <h3 className="text-[17px] font-semibold text-foreground mb-3">
                 How do I choose an SAP consulting partner?
               </h3>
-              <p className="text-[15px] text-white/55 leading-[1.8]">
+              <p className="text-[15px] text-muted leading-[1.8]">
                 Look for three things. First, independence: does the firm earn
                 money from SAP implementations, or purely from advising you?
                 Second, relevant experience: have they worked in your industry,
@@ -933,7 +933,7 @@ export default function SAPConsultingPage() {
       {/* Author note */}
       <ContentSection withBorder>
         <Reveal>
-          <p className="text-[13px] text-white/35 leading-relaxed italic">
+          <p className="text-[13px] text-muted/70 leading-relaxed italic">
             This page was written by Laurence Phelan, Director at COGO
             Consulting. Laurence has over 20 years of experience in ERP
             advisory, with particular expertise in SAP S/4HANA, SAP programme

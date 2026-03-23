@@ -86,15 +86,15 @@ export default function GuidesIndexPage() {
                         <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-3 font-medium">
                           {guide.category}
                         </p>
-                        <h2 className="text-[18px] md:text-[20px] font-semibold text-white/90 mb-3 group-hover:text-accent transition-colors">
+                        <h2 className="text-[18px] md:text-[20px] font-semibold text-foreground mb-3 group-hover:text-accent transition-colors">
                           {guide.title}
                         </h2>
-                        <p className="text-[14px] text-white/45 leading-relaxed">
+                        <p className="text-[14px] text-muted leading-relaxed">
                           {guide.description}
                         </p>
                       </div>
                       <svg
-                        className="w-5 h-5 text-white/20 group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0 mt-1"
+                        className="w-5 h-5 text-muted/70 group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0 mt-1"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

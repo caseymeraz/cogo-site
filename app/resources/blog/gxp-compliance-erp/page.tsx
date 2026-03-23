@@ -50,7 +50,7 @@ export default function GxpComplianceErpPage() {
         <h3>Can I use a cloud ERP in a GxP environment?</h3>
         <p>Yes. The GAMP 5 Second Edition (2022) provides specific guidance for cloud and SaaS systems.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Need independent guidance on ERP selection for a GxP-regulated environment?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Speak to COGO</Link>.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Need independent guidance on ERP selection for a GxP-regulated environment?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Speak to COGO</Link>.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

@@ -54,7 +54,7 @@ export default function FinanceTransformationPage() {
         <h3>Can I outsource finance transformation?</h3>
         <p>You can use external expertise for specific elements, but you cannot outsource the leadership, decision-making, and cultural change that transformation requires. Your CFO must own it.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>Considering finance transformation?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to COGO</Link> for an independent perspective.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>Considering finance transformation?</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Talk to COGO</Link> for an independent perspective.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

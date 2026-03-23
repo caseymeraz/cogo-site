@@ -47,7 +47,7 @@ export default function SapVsDynamicsPage() {
         <h3>Should we use an independent consultant?</h3>
         <p>Yes. An <Link href="/services/software-selection/">independent software selection consultant</Link> evaluates your requirements first and then matches them to the market.</p>
       </Prose></ContentSection>
-      <ContentSection withBorder><Reveal><p className="text-[15px] text-white/55 leading-relaxed"><strong>This is a decision you will live with for 10+ years.</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link> for independent guidance.</p></Reveal></ContentSection>
+      <ContentSection withBorder><Reveal><p className="text-[15px] text-muted leading-relaxed"><strong>This is a decision you will live with for 10+ years.</strong>{" "}<Link href="/contact/" className="text-accent underline underline-offset-4 decoration-accent/30 hover:decoration-accent/60 transition-colors">Get in touch</Link> for independent guidance.</p></Reveal></ContentSection>
       <PageCTA />
     </PageLayout>
   );

@@ -102,7 +102,7 @@ export default function PartnersPage() {
           subtitle="In a traditional engagement, your advisory firm and your implementation firm are the same company - or the advisory firm earns a referral fee for recommending the implementer. Either way, the advice is coloured by commercial interest."
         />
         <Reveal>
-          <p className="text-[15px] text-white/45 leading-relaxed mb-10">
+          <p className="text-[15px] text-muted leading-relaxed mb-10">
             The COGO-Westernacher model is structurally different:
           </p>
         </Reveal>
@@ -113,10 +113,10 @@ export default function PartnersPage() {
                 <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-3 font-medium">
                   COGO&apos;s role
                 </p>
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Protect your interests
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   We define what success looks like, challenge assumptions, and
                   hold the project to account. We earn nothing from
                   Westernacher&apos;s implementation fees.
@@ -127,13 +127,13 @@ export default function PartnersPage() {
           <Reveal delay={0.1}>
             <SpotlightCard>
               <div className="p-6">
-                <p className="text-[11px] uppercase tracking-[0.15em] text-white/30 mb-3 font-medium">
+                <p className="text-[11px] uppercase tracking-[0.15em] text-muted/70 mb-3 font-medium">
                   Westernacher&apos;s role
                 </p>
-                <h3 className="text-[17px] font-semibold text-white/90 mb-3">
+                <h3 className="text-[17px] font-semibold text-foreground mb-3">
                   Deliver the implementation
                 </h3>
-                <p className="text-[14px] text-white/50 leading-relaxed">
+                <p className="text-[14px] text-muted leading-relaxed">
                   They bring deep SAP technical expertise and a proven
                   methodology. They know that an independent advisor is watching
                   - and that keeps everyone sharp.
@@ -143,7 +143,7 @@ export default function PartnersPage() {
           </Reveal>
         </div>
         <Reveal delay={0.2}>
-          <p className="text-[15px] text-white/45 leading-relaxed mt-10">
+          <p className="text-[15px] text-muted leading-relaxed mt-10">
             This is not theory. It is how the best-run programmes in the world
             operate: independent oversight alongside specialist delivery. Your
             finance team would never let the same firm audit and advise. Your
@@ -163,10 +163,10 @@ export default function PartnersPage() {
             <Reveal key={item.label} delay={i * 0.08}>
               <SpotlightCard>
                 <div className="p-6">
-                  <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                  <h3 className="text-[17px] font-semibold text-foreground mb-2">
                     {item.label}
                   </h3>
-                  <p className="text-[14px] text-white/50 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     {item.description}
                   </p>
                 </div>
@@ -215,10 +215,10 @@ export default function PartnersPage() {
             <Reveal key={item.title} delay={i * 0.08}>
               <SpotlightCard>
                 <div className="p-6">
-                  <h3 className="text-[17px] font-semibold text-white/90 mb-2">
+                  <h3 className="text-[17px] font-semibold text-foreground mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-[14px] text-white/50 leading-relaxed">
+                  <p className="text-[14px] text-muted leading-relaxed">
                     {item.description}
                   </p>
                 </div>

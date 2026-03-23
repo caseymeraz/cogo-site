@@ -77,14 +77,14 @@ export default function TeamPage() {
                           />
                         </div>
                       )}
-                      <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/90">
+                      <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-foreground">
                         {member.name}
                       </h3>
                       <p className="text-[13px] uppercase tracking-[0.1em] text-accent mt-1 font-medium">
                         {member.role}
                       </p>
                     </div>
-                    <p className="text-[15px] text-white/50 leading-[1.8]">
+                    <p className="text-[15px] text-muted leading-[1.8]">
                       {member.bio}
                     </p>
                   </div>
