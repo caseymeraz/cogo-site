@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
       {/* Layered background */}
       <div className="absolute inset-0 grid-bg" />
       <div className="absolute inset-0 hero-gradient" />
@@ -18,7 +18,7 @@ export default function Hero() {
           scale: [1, 1.15, 0.9, 1],
         }}
         transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-accent/[0.07] blur-[100px]"
+        className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-accent/[0.06] blur-[120px]"
       />
       <motion.div
         animate={{
@@ -27,7 +27,7 @@ export default function Hero() {
           scale: [1, 0.9, 1.15, 1],
         }}
         transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full bg-accent-2/[0.07] blur-[100px]"
+        className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full bg-accent-2/[0.06] blur-[120px]"
       />
 
       {/* Content */}
@@ -37,13 +37,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.6, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
-          className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.04] mb-10"
+          className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-border bg-surface mb-10"
         >
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
             <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
           </span>
-          <span className="text-[11px] tracking-[0.15em] text-white/50 uppercase font-medium">
+          <span className="text-[11px] tracking-[0.15em] text-muted uppercase font-medium">
             Independent. Technology-agnostic. On your side.
           </span>
         </motion.div>
@@ -53,7 +53,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, delay: 0.4, ease: [0.21, 0.47, 0.32, 0.98] }}
-          className="text-[clamp(36px,7vw,72px)] font-semibold leading-[1.0] tracking-[-0.03em] mb-7"
+          className="text-[clamp(36px,7vw,72px)] font-semibold leading-[1.0] tracking-[-0.03em] text-foreground mb-7"
         >
           Your next technology decision
           <br />
@@ -65,7 +65,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.6, delay: 0.7, ease: [0.21, 0.47, 0.32, 0.98] }}
-          className="text-[18px] text-white/50 max-w-[520px] mx-auto mb-12 leading-relaxed text-balance"
+          className="text-[18px] text-muted max-w-[520px] mx-auto mb-12 leading-relaxed text-balance"
         >
           We work for you, not the software vendors. From ERP selection to SAP
           implementation, we make sure your business gets the right technology
@@ -79,14 +79,14 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.9, ease: [0.21, 0.47, 0.32, 0.98] }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          {/* Primary CTA with shimmer */}
+          {/* Primary CTA */}
           <a
             href="#contact"
             className="shimmer-button group relative px-8 py-4 rounded-full font-medium text-sm"
           >
             <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full" />
-            <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
-            <span className="relative z-10 flex items-center gap-2 text-background">
+            <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full blur-xl opacity-25 group-hover:opacity-40 transition-opacity" />
+            <span className="relative z-10 flex items-center gap-2 text-white">
               Book a call
               <svg
                 className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
@@ -102,7 +102,7 @@ export default function Hero() {
           {/* Secondary CTA */}
           <a
             href="#approach"
-            className="group px-8 py-4 rounded-full text-sm text-white/50 border border-white/[0.08] hover:border-white/[0.2] hover:text-white/80 hover:bg-white/[0.03] transition-all duration-300"
+            className="group px-8 py-4 rounded-full text-sm text-muted border border-border hover:border-border-hover hover:text-foreground hover:bg-surface transition-all duration-300"
           >
             See how we work
           </a>
@@ -118,7 +118,7 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            className="w-6 h-10 rounded-full border border-white/[0.15] flex items-start justify-center p-2"
+            className="w-6 h-10 rounded-full border border-border flex items-start justify-center p-2"
           >
             <motion.div
               animate={{ opacity: [0.4, 1, 0.4], height: [6, 10, 6] }}

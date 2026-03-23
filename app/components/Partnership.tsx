@@ -96,7 +96,7 @@ export default function Partnership() {
                         alt="Westernacher"
                         width={140}
                         height={50}
-                        className="h-9 w-auto brightness-0 invert opacity-80"
+                        className="h-9 w-auto"
                       />
                     </div>
                   </div>
