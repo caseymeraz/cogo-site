@@ -1,104 +1,92 @@
 "use client";
 
-import { motion } from "framer-motion";
+import Reveal from "./Reveal";
 
 const steps = [
   {
     step: "01",
     title: "Understand your business",
     description:
-      "We start by listening. We map your current systems, processes, and pain points before recommending anything. No generic playbooks.",
+      "We start by listening. We map your current systems, processes, and pain points before recommending anything.",
   },
   {
     step: "02",
     title: "Define what you actually need",
     description:
-      "We run workshops with your team to document requirements, clarify budget, and set realistic timelines. You leave with a clear brief, not a vague wishlist.",
+      "We run workshops with your team to document requirements, clarify budget, and set realistic timelines.",
   },
   {
     step: "03",
     title: "Evaluate without bias",
     description:
-      "We are technology-agnostic. We have evaluated every major ERP and CRM on the market. We recommend what fits your business, not what pays us commission.",
+      "We are technology-agnostic. We have evaluated every major ERP and CRM on the market and recommend what fits.",
   },
   {
     step: "04",
     title: "Select with confidence",
     description:
-      "Custom demos, scored evaluations, reference checks. You make the final call with full visibility of costs, risks, and trade-offs.",
+      "Custom demos, scored evaluations, reference checks. You make the final call with full visibility.",
   },
   {
     step: "05",
     title: "Implement and protect your interests",
     description:
-      "We sit on your side of the table during implementation, managing vendors and keeping the project honest. Your goals come first.",
+      "We sit on your side during implementation, managing vendors and keeping the project honest.",
   },
   {
     step: "06",
     title: "Sustain and grow",
     description:
-      "We do not disappear after go-live. We help embed new ways of working, train your team, and build internal capability so you are not dependent on consultants.",
+      "We help embed new ways of working, train your team, and build internal capability.",
   },
 ];
 
 export default function Approach() {
   return (
-    <section id="approach" className="py-24 relative overflow-hidden">
-      {/* Subtle background */}
-      <div className="absolute inset-0 radial-fade opacity-50" />
+    <section id="approach" className="py-28 relative overflow-hidden">
+      <div className="absolute inset-0 hero-gradient opacity-30" />
+      <div className="absolute inset-0 grain" />
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
         {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-2xl mx-auto text-center mb-16"
-        >
-          <p className="text-xs uppercase tracking-widest text-accent mb-4">
-            Our approach
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            A process built from 30 years of knowing what goes wrong
-          </h2>
-          <p className="text-muted text-lg">
-            Most transformation projects fail because of bad decisions made
-            early. Our six-step methodology is designed to prevent that.
-          </p>
-        </motion.div>
+        <Reveal>
+          <div className="max-w-2xl mx-auto text-center mb-20">
+            <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-4 font-medium">
+              Our approach
+            </p>
+            <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
+              A process built from 30 years of knowing what goes wrong
+            </h2>
+            <p className="text-[16px] text-white/50 leading-relaxed text-balance">
+              Most transformation projects fail because of bad decisions made
+              early. Our methodology prevents that.
+            </p>
+          </div>
+        </Reveal>
 
-        {/* Steps */}
-        <div className="relative max-w-3xl mx-auto">
-          {/* Vertical line */}
-          <div className="absolute left-6 md:left-8 top-0 bottom-0 w-px bg-gradient-to-b from-accent via-accent-2 to-transparent" />
-
-          <div className="space-y-12">
-            {steps.map((step, i) => (
-              <motion.div
-                key={step.step}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
-                className="relative flex gap-6 md:gap-8"
-              >
-                {/* Step circle */}
-                <div className="relative z-10 flex-shrink-0 w-12 h-12 md:w-16 md:h-16 rounded-full border border-border bg-surface flex items-center justify-center">
-                  <span className="text-xs md:text-sm font-mono text-accent">
+        {/* Steps grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
+          {steps.map((step, i) => (
+            <Reveal key={step.step} delay={i * 0.07}>
+              <div className="group relative p-7 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:border-white/[0.12] hover:bg-white/[0.04] transition-all duration-500 h-full">
+                {/* Step number */}
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-xl border border-white/[0.08] bg-white/[0.03] text-[12px] font-mono text-accent group-hover:border-accent/30 transition-colors duration-500">
                     {step.step}
                   </span>
+                  <div className="h-px flex-1 bg-gradient-to-r from-white/[0.08] to-transparent" />
                 </div>
 
                 {/* Content */}
-                <div className="pt-2 md:pt-3">
-                  <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
-                  <p className="text-sm text-muted leading-relaxed">
-                    {step.description}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+                <h3 className="text-[16px] font-semibold tracking-[-0.01em] mb-2.5">
+                  {step.title}
+                </h3>
+                <p className="text-[13px] text-white/40 leading-[1.7]">
+                  {step.description}
+                </p>
+              </div>
+            </Reveal>
+          ))}
         </div>
       </div>
     </section>

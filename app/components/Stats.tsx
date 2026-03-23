@@ -1,17 +1,16 @@
 "use client";
 
-import { motion, useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import Reveal from "./Reveal";
 
 function AnimatedNumber({
   target,
   suffix = "",
-  prefix = "",
   duration = 2,
 }: {
   target: number;
   suffix?: string;
-  prefix?: string;
   duration?: number;
 }) {
   const [count, setCount] = useState(0);
@@ -34,7 +33,6 @@ function AnimatedNumber({
 
   return (
     <span ref={ref}>
-      {prefix}
       {count}
       {suffix}
     </span>
@@ -58,41 +56,35 @@ const stats = [
     value: 1200,
     suffix: "+",
     label: "SAP consultants",
-    description: "Available through our Westernacher partnership",
+    description: "Through our Westernacher partnership",
   },
   {
     value: 18,
     suffix: "+",
     label: "Countries",
-    description: "Global delivery capability, local advisory",
+    description: "Global delivery, local advisory",
   },
 ];
 
 export default function Stats() {
   return (
-    <section className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+    <section className="py-28 relative">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10">
           {stats.map((stat, i) => (
-            <motion.div
-              key={stat.label}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="text-center p-6"
-            >
-              <div className="text-4xl sm:text-5xl font-bold gradient-text mb-2">
-                <AnimatedNumber
-                  target={stat.value}
-                  suffix={stat.suffix}
-                />
+            <Reveal key={stat.label} delay={i * 0.08}>
+              <div className="text-center p-6 rounded-2xl border border-white/[0.04] hover:border-white/[0.08] transition-colors duration-500">
+                <div className="text-[clamp(36px,5vw,56px)] font-bold tracking-[-0.03em] gradient-text mb-2 leading-none">
+                  <AnimatedNumber target={stat.value} suffix={stat.suffix} />
+                </div>
+                <div className="text-[13px] font-medium text-white/80 mb-1">
+                  {stat.label}
+                </div>
+                <div className="text-[12px] text-white/40 leading-relaxed">
+                  {stat.description}
+                </div>
               </div>
-              <div className="text-sm font-medium text-foreground mb-1">
-                {stat.label}
-              </div>
-              <div className="text-xs text-muted">{stat.description}</div>
-            </motion.div>
+            </Reveal>
           ))}
         </div>
       </div>

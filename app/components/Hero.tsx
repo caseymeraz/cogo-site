@@ -5,63 +5,67 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background layers */}
+      {/* Layered background */}
       <div className="absolute inset-0 grid-bg" />
-      <div className="absolute inset-0 radial-fade" />
+      <div className="absolute inset-0 hero-gradient" />
+      <div className="absolute inset-0 grain" />
 
       {/* Floating orbs */}
       <motion.div
         animate={{
-          x: [0, 30, -20, 0],
-          y: [0, -40, 20, 0],
-          scale: [1, 1.1, 0.95, 1],
+          x: [0, 40, -30, 0],
+          y: [0, -50, 30, 0],
+          scale: [1, 1.15, 0.9, 1],
         }}
         transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-accent/5 blur-3xl"
+        className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-accent/[0.07] blur-[100px]"
       />
       <motion.div
         animate={{
-          x: [0, -30, 20, 0],
-          y: [0, 20, -40, 0],
-          scale: [1, 0.95, 1.1, 1],
+          x: [0, -40, 30, 0],
+          y: [0, 30, -50, 0],
+          scale: [1, 0.9, 1.15, 1],
         }}
         transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-accent-2/5 blur-3xl"
+        className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] rounded-full bg-accent-2/[0.07] blur-[100px]"
       />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        {/* Badge */}
+        {/* Eyebrow badge */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-surface/50 mb-8"
+          initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.6, delay: 0.2, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-white/[0.08] bg-white/[0.04] mb-10"
         >
-          <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-          <span className="text-xs tracking-wider text-muted uppercase">
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
+          </span>
+          <span className="text-[11px] tracking-[0.15em] text-white/50 uppercase font-medium">
             Independent. Technology-agnostic. On your side.
           </span>
         </motion.div>
 
         {/* Headline */}
         <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.1] tracking-tight mb-6"
+          initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.8, delay: 0.4, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className="text-[clamp(36px,7vw,72px)] font-semibold leading-[1.0] tracking-[-0.03em] mb-7"
         >
           Your next technology decision
           <br />
           <span className="gradient-text">is too important to get wrong</span>
         </motion.h1>
 
-        {/* Sub */}
+        {/* Subhead */}
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
-          className="text-lg sm:text-xl text-muted max-w-2xl mx-auto mb-10 leading-relaxed"
+          initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.6, delay: 0.7, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className="text-[18px] text-white/50 max-w-[520px] mx-auto mb-12 leading-relaxed text-balance"
         >
           We work for you, not the software vendors. From ERP selection to SAP
           implementation, we make sure your business gets the right technology
@@ -70,36 +74,35 @@ export default function Hero() {
 
         {/* CTAs */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.9 }}
+          initial={{ opacity: 0, y: 20, filter: "blur(6px)" }}
+          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          transition={{ duration: 0.6, delay: 0.9, ease: [0.21, 0.47, 0.32, 0.98] }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
+          {/* Primary CTA with shimmer */}
           <a
             href="#contact"
-            className="group relative px-8 py-4 rounded-full text-background font-medium text-sm overflow-hidden"
+            className="shimmer-button group relative px-8 py-4 rounded-full font-medium text-sm"
           >
-            <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 group-hover:opacity-90 transition-opacity" />
-            <span className="relative z-10 flex items-center gap-2">
+            <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full" />
+            <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full blur-xl opacity-40 group-hover:opacity-60 transition-opacity" />
+            <span className="relative z-10 flex items-center gap-2 text-background">
               Book a call
               <svg
-                className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </span>
           </a>
+
+          {/* Secondary CTA */}
           <a
             href="#approach"
-            className="px-8 py-4 rounded-full text-sm text-muted border border-border hover:border-accent/30 hover:text-foreground transition-all duration-200"
+            className="group px-8 py-4 rounded-full text-sm text-white/50 border border-white/[0.08] hover:border-white/[0.2] hover:text-white/80 hover:bg-white/[0.03] transition-all duration-300"
           >
             See how we work
           </a>
@@ -109,15 +112,19 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
+          transition={{ delay: 1.8 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            className="w-5 h-8 rounded-full border border-border flex items-start justify-center p-1.5"
+            className="w-6 h-10 rounded-full border border-white/[0.15] flex items-start justify-center p-2"
           >
-            <div className="w-1 h-2 rounded-full bg-accent/60" />
+            <motion.div
+              animate={{ opacity: [0.4, 1, 0.4], height: [6, 10, 6] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              className="w-1 rounded-full bg-accent/70"
+            />
           </motion.div>
         </motion.div>
       </div>

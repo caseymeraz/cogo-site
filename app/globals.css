@@ -3,12 +3,12 @@
 @theme inline {
   --color-background: #050508;
   --color-foreground: #f0f0f5;
-  --color-muted: #8a8a9a;
+  --color-muted: rgba(255, 255, 255, 0.5);
   --color-accent: #00c2ff;
   --color-accent-2: #7c3aed;
-  --color-surface: #0d0d14;
-  --color-surface-2: #14141f;
-  --color-border: #1e1e2e;
+  --color-surface: rgba(255, 255, 255, 0.04);
+  --color-surface-2: rgba(255, 255, 255, 0.06);
+  --color-border: rgba(255, 255, 255, 0.08);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -18,12 +18,24 @@ html {
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
+  background: #050508;
+  color: #f0f0f5;
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
-/* Gradient text utility */
+/* ===== GRAIN TEXTURE OVERLAY ===== */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ===== GRADIENT TEXT ===== */
 .gradient-text {
   background: linear-gradient(135deg, #00c2ff 0%, #7c3aed 50%, #00c2ff 100%);
   background-size: 200% auto;
@@ -39,76 +51,138 @@ body {
   100% { background-position: 0% center; }
 }
 
-/* Glow effect */
-.glow {
-  box-shadow: 0 0 40px rgba(0, 194, 255, 0.15), 0 0 80px rgba(124, 58, 237, 0.1);
-}
-
-.glow-text {
-  text-shadow: 0 0 30px rgba(0, 194, 255, 0.3);
-}
-
-/* Grid background */
+/* ===== GRID BACKGROUND ===== */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
-/* Radial gradient overlay */
-.radial-fade {
-  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0, 194, 255, 0.08) 0%, transparent 60%);
+/* ===== HERO RADIAL GRADIENTS ===== */
+.hero-gradient {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 194, 255, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 30% 20%, rgba(124, 58, 237, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 35% at 80% 30%, rgba(0, 194, 255, 0.08) 0%, transparent 55%);
 }
 
-/* Logo ticker */
+/* ===== LOGO TICKER ===== */
 @keyframes ticker {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
 
 .logo-ticker {
-  animation: ticker 30s linear infinite;
+  animation: ticker 35s linear infinite;
 }
 
 .logo-ticker:hover {
   animation-play-state: paused;
 }
 
-/* Stat counter glow ring */
-.stat-ring {
-  background: conic-gradient(from 0deg, #00c2ff, #7c3aed, #00c2ff);
-  padding: 1px;
-  border-radius: 1rem;
+/* ===== BORDER BEAM ===== */
+@property --beam-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
-/* Smooth card hover */
-.card-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 40px rgba(0, 194, 255, 0.1), 0 0 0 1px rgba(0, 194, 255, 0.15);
+@keyframes beam-rotate {
+  to { --beam-angle: 360deg; }
 }
 
-/* Navbar blur */
+.border-beam {
+  position: relative;
+}
+
+.border-beam::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--beam-angle),
+    transparent 70%,
+    rgba(0, 194, 255, 0.8) 78%,
+    rgba(124, 58, 237, 0.9) 82%,
+    rgba(200, 160, 255, 1) 85%,
+    transparent 92%
+  );
+  animation: beam-rotate 6s linear infinite;
+  z-index: -1;
+}
+
+.border-beam::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--beam-angle),
+    transparent 70%,
+    rgba(0, 194, 255, 0.4) 78%,
+    rgba(124, 58, 237, 0.5) 82%,
+    rgba(200, 160, 255, 0.6) 85%,
+    transparent 92%
+  );
+  animation: beam-rotate 6s linear infinite;
+  filter: blur(12px);
+  z-index: -2;
+}
+
+/* ===== SHIMMER BUTTON ===== */
+.shimmer-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 250% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* ===== GLASSMORPHISM ===== */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.05) inset,
+    0 20px 40px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.08) inset;
+}
+
+/* ===== NAVBAR BLUR ===== */
 .nav-blur {
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
-/* Process line */
-.process-line {
-  background: linear-gradient(180deg, #00c2ff, #7c3aed);
-}
-
-/* Selection color */
+/* ===== SELECTION ===== */
 ::selection {
   background: rgba(0, 194, 255, 0.3);
   color: #fff;
 }
 
-/* Scrollbar styling */
+/* ===== SCROLLBAR ===== */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -116,9 +190,14 @@ body {
   background: #050508;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e1e2e;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #2e2e3e;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ===== UTILITIES ===== */
+.text-balance {
+  text-wrap: balance;
 }

@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import Reveal from "./Reveal";
+import SpotlightCard from "./SpotlightCard";
 
 const services = [
   {
@@ -14,7 +15,8 @@ const services = [
       "Strategic digital roadmap",
       "Budget and timeline planning",
     ],
-    accent: "from-accent to-blue-600",
+    gradient: "from-cyan-400 to-blue-500",
+    spotlightColor: "rgba(0, 194, 255, 0.1)",
   },
   {
     number: "02",
@@ -22,12 +24,13 @@ const services = [
     description:
       "Choosing the wrong ERP or enterprise platform costs years and millions. We run a proven six-step evaluation process that removes the guesswork and the vendor bias.",
     features: [
-      "Requirements scoping",
+      "Requirements scoping workshops",
       "Vendor shortlisting & RFP management",
       "Custom demo scripts",
       "Contract negotiation support",
     ],
-    accent: "from-accent-2 to-purple-600",
+    gradient: "from-violet-400 to-purple-600",
+    spotlightColor: "rgba(124, 58, 237, 0.1)",
   },
   {
     number: "03",
@@ -40,7 +43,8 @@ const services = [
       "SAP reboot & recovery",
       "Training with Enable Now & WalkMe",
     ],
-    accent: "from-pink-500 to-rose-600",
+    gradient: "from-rose-400 to-pink-600",
+    spotlightColor: "rgba(244, 63, 94, 0.1)",
   },
   {
     number: "04",
@@ -49,81 +53,83 @@ const services = [
       "Your customer data is scattered across spreadsheets, inboxes, and notepads. We help you select, implement, and actually adopt a CRM that your team will use.",
     features: [
       "CRM maturity assessment",
-      "Platform selection",
+      "Platform selection & evaluation",
       "Sales process design",
       "Marketing automation setup",
     ],
-    accent: "from-emerald-400 to-teal-600",
+    gradient: "from-emerald-400 to-teal-500",
+    spotlightColor: "rgba(16, 185, 129, 0.1)",
   },
 ];
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="services" className="py-28 relative">
+      <div className="absolute inset-0 grain" />
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
         {/* Section header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-2xl mb-16"
-        >
-          <p className="text-xs uppercase tracking-widest text-accent mb-4">
-            What we do
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Four ways we keep your project on track
-          </h2>
-          <p className="text-muted text-lg">
-            Every engagement starts with one question: what does your business
-            actually need? Not what a vendor wants to sell you.
-          </p>
-        </motion.div>
+        <Reveal>
+          <div className="max-w-2xl mb-20">
+            <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-4 font-medium">
+              What we do
+            </p>
+            <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
+              Four ways we keep your project on track
+            </h2>
+            <p className="text-[16px] text-white/50 leading-relaxed">
+              Every engagement starts with one question: what does your business
+              actually need? Not what a vendor wants to sell you.
+            </p>
+          </div>
+        </Reveal>
 
-        {/* Service cards */}
-        <div className="grid md:grid-cols-2 gap-6">
+        {/* Bento grid */}
+        <div className="grid md:grid-cols-2 gap-5">
           {services.map((service, i) => (
-            <motion.div
-              key={service.number}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group relative rounded-2xl border border-border bg-surface/50 p-8 card-hover overflow-hidden"
-            >
-              {/* Gradient accent line */}
-              <div
-                className={`absolute top-0 left-0 right-0 h-px bg-gradient-to-r ${service.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}
-              />
+            <Reveal key={service.number} delay={i * 0.08}>
+              <SpotlightCard
+                spotlightColor={service.spotlightColor}
+                className="h-full"
+              >
+                <div className="p-8 lg:p-10 relative">
+                  {/* Gradient accent line */}
+                  <div
+                    className={`absolute top-0 left-8 right-8 h-px bg-gradient-to-r ${service.gradient} opacity-20`}
+                  />
 
-              {/* Number */}
-              <span className="text-6xl font-bold text-border/50 absolute top-6 right-8 select-none">
-                {service.number}
-              </span>
+                  {/* Number watermark */}
+                  <span className="absolute top-6 right-8 text-[72px] font-bold leading-none text-white/[0.03] select-none tracking-[-0.04em]">
+                    {service.number}
+                  </span>
 
-              {/* Content */}
-              <div className="relative z-10">
-                <h3 className="text-xl font-semibold mb-3 pr-16">
-                  {service.title}
-                </h3>
-                <p className="text-muted text-sm leading-relaxed mb-6">
-                  {service.description}
-                </p>
+                  {/* Content */}
+                  <div className="relative">
+                    <h3 className="text-[20px] font-semibold tracking-[-0.02em] mb-3 pr-16">
+                      {service.title}
+                    </h3>
+                    <p className="text-[14px] text-white/45 leading-[1.7] mb-7">
+                      {service.description}
+                    </p>
 
-                {/* Features */}
-                <ul className="space-y-2">
-                  {service.features.map((feature) => (
-                    <li
-                      key={feature}
-                      className="flex items-center gap-3 text-sm text-muted"
-                    >
-                      <span className="w-1 h-1 rounded-full bg-accent flex-shrink-0" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </motion.div>
+                    {/* Features */}
+                    <ul className="space-y-2.5">
+                      {service.features.map((feature) => (
+                        <li
+                          key={feature}
+                          className="flex items-center gap-3 text-[13px] text-white/50"
+                        >
+                          <span
+                            className={`w-1 h-1 rounded-full bg-gradient-to-r ${service.gradient} flex-shrink-0`}
+                          />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </SpotlightCard>
+            </Reveal>
           ))}
         </div>
       </div>
