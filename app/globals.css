@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #050508;
+  --color-foreground: #f0f0f5;
+  --color-muted: #8a8a9a;
+  --color-accent: #00c2ff;
+  --color-accent-2: #7c3aed;
+  --color-surface: #0d0d14;
+  --color-surface-2: #14141f;
+  --color-border: #1e1e2e;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #00c2ff 0%, #7c3aed 50%, #00c2ff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 4s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+  100% { background-position: 0% center; }
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 40px rgba(0, 194, 255, 0.15), 0 0 80px rgba(124, 58, 237, 0.1);
+}
+
+.glow-text {
+  text-shadow: 0 0 30px rgba(0, 194, 255, 0.3);
+}
+
+/* Grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Radial gradient overlay */
+.radial-fade {
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0, 194, 255, 0.08) 0%, transparent 60%);
+}
+
+/* Logo ticker */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-ticker {
+  animation: ticker 30s linear infinite;
+}
+
+.logo-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* Stat counter glow ring */
+.stat-ring {
+  background: conic-gradient(from 0deg, #00c2ff, #7c3aed, #00c2ff);
+  padding: 1px;
+  border-radius: 1rem;
+}
+
+/* Smooth card hover */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 40px rgba(0, 194, 255, 0.1), 0 0 0 1px rgba(0, 194, 255, 0.15);
+}
+
+/* Navbar blur */
+.nav-blur {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Process line */
+.process-line {
+  background: linear-gradient(180deg, #00c2ff, #7c3aed);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(0, 194, 255, 0.3);
+  color: #fff;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050508;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e1e2e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e2e3e;
+}
