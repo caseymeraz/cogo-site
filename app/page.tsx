@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import LogoTicker from "./components/LogoTicker";
-import Stats from "./components/Stats";
+import TruthSection from "./components/TruthSection";
 import Services from "./components/Services";
+import Stats from "./components/Stats";
 import Approach from "./components/Approach";
+import Industries from "./components/Industries";
 import Differentiators from "./components/Differentiators";
 import Partnership from "./components/Partnership";
 import CTA from "./components/CTA";
@@ -15,9 +17,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <LogoTicker />
-      <Stats />
+      <TruthSection />
       <Services />
+      <Stats />
       <Approach />
+      <Industries />
       <Differentiators />
       <Partnership />
       <CTA />
