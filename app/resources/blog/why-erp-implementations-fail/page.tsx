@@ -6,6 +6,7 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Why ERP Implementations Fail | Independent Analysis | COGO",
@@ -35,6 +36,11 @@ export default function WhyErpImplementationsFailPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-whiteboard-planning.jpg"
+        alt="Strategic planning session to prevent ERP implementation failure"
+      />
 
       <ContentSection withBorder>
         <Prose>

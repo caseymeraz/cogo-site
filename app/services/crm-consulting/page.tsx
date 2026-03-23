@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "CRM Consulting Ireland | Independent Advice | COGO",
@@ -56,6 +57,8 @@ export default function CRMConsultingPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/crm-hubspot.png" alt="HubSpot CRM platform" aspect="auto" />
 
       {/* Three-block approach */}
       <ContentSection withBorder>

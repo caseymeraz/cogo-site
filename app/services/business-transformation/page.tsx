@@ -6,6 +6,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function BusinessTransformationPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/hero-whiteboard-planning.jpg" alt="Strategic planning session with process mapping on whiteboard" />
 
       {/* What is business transformation? */}
       <ContentSection withBorder withGrain>
@@ -116,6 +119,8 @@ export default function BusinessTransformationPage() {
           </Reveal>
         </div>
       </ContentSection>
+
+      <PageImage src="/images/process-mapping-1.png" alt="Business process mapping example" />
 
       {/* The 4 pillars */}
       <ContentSection withBorder withGrain>

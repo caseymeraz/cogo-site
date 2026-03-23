@@ -9,6 +9,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "How to Choose an ERP System | UK Guide | COGO",
@@ -67,6 +68,10 @@ export default function HowToChooseERPPage() {
             simply outgrowing spreadsheets and workarounds, the steps are the
             same. Only the scale changes.
           </p>
+          <PageImage
+            src="/images/methodology-evaluation.png"
+            alt="COGO six-step ERP evaluation and selection methodology"
+          />
           <p>
             <strong>
               <Link href="/contact/">

@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Pharmaceutical ERP Systems | Independent UK & IE Guide | COGO",
@@ -49,6 +50,11 @@ export default function PharmaceuticalPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-manufacturing-line.jpg"
+        alt="Pharmaceutical manufacturing production line requiring validated ERP systems"
+      />
 
       {/* Why pharma manufacturing needs validated ERP */}
       <ContentSection withBorder>

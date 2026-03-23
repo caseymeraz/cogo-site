@@ -6,6 +6,7 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "BRCGS compliance ERP: how technology supports certification | COGO",
@@ -32,6 +33,11 @@ export default function BrcgsComplianceTechnologyPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-manufacturing-line.jpg"
+        alt="Food manufacturing production line with BRCGS compliance requirements"
+      />
 
       <ContentSection withBorder>
         <Prose>

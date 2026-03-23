@@ -6,6 +6,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -44,6 +45,8 @@ export default function SAPRebootPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/sap-consulting-9.png" alt="SAP system reboot and recovery consulting" />
 
       {/* Signs you need a reboot */}
       <ContentSection withBorder withGrain>

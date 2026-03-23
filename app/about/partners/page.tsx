@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "COGO + Westernacher | SAP Gold Partner Alliance",
@@ -88,6 +89,11 @@ export default function PartnersPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/partnership-diagram.jpg"
+        alt="COGO and Westernacher partnership model showing strategy and delivery roles"
+      />
 
       <ContentSection withBorder>
         <SectionHeader

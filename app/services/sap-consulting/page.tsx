@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "SAP Consulting Ireland & UK | Independent | COGO",
@@ -71,6 +72,8 @@ export default function SAPConsultingPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/sap-consulting-graphic.png" alt="SAP consulting services overview" />
 
       {/* Capabilities */}
       <ContentSection withBorder>
@@ -218,6 +221,8 @@ export default function SAPConsultingPage() {
             </Prose>
           </div>
         </Reveal>
+
+        <PageImage src="/images/partnership-diagram.jpg" alt="COGO and Westernacher partnership model for SAP delivery" />
 
         {/* Supply Chain */}
         <Reveal>

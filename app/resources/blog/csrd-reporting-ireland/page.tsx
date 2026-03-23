@@ -6,6 +6,7 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "CSRD Reporting Ireland: System Requirements | COGO",
@@ -32,6 +33,11 @@ export default function CsrdReportingIrelandPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-data-analytics.jpg"
+        alt="CSRD compliance data analytics and sustainability reporting"
+      />
 
       <ContentSection withBorder>
         <Prose>

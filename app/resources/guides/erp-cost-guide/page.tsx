@@ -9,6 +9,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "How Much Does ERP Cost in the UK? 2026 Guide | COGO",
@@ -55,6 +56,11 @@ export default function ERPCostGuidePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-project-planning.jpg"
+        alt="ERP project planning and budget management"
+      />
 
       {/* Cost breakdown */}
       <ContentSection withBorder>

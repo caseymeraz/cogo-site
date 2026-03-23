@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "ERP for Food Manufacturing | Independent Guide | COGO",
@@ -49,6 +50,11 @@ export default function FoodManufacturingPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-warehouse-overhead.jpg"
+        alt="Food and beverage warehouse operations managed by ERP systems"
+      />
 
       {/* Why food manufacturers need specialised ERP */}
       <ContentSection withBorder>
@@ -304,6 +310,11 @@ export default function FoodManufacturingPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/supply-chain-diagram.png"
+        alt="Supply chain management process flow for food manufacturing"
+      />
 
       {/* UK and Ireland compliance */}
       <ContentSection withBorder>

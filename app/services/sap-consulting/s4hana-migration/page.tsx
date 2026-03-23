@@ -6,6 +6,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -39,6 +40,8 @@ export default function S4HANAMigrationPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/sap-consulting-8.png" alt="SAP S/4HANA migration consulting" />
 
       {/* What is SAP S/4HANA? */}
       <ContentSection withBorder withGrain>

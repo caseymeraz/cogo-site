@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import LogoTicker from "./components/LogoTicker";
 import TruthSection from "./components/TruthSection";
+import PageImage from "./components/PageImage";
 import Services from "./components/Services";
 import Stats from "./components/Stats";
 import Approach from "./components/Approach";
@@ -18,6 +19,12 @@ export default function Home() {
       <Hero />
       <LogoTicker />
       <TruthSection />
+      <div className="max-w-4xl mx-auto px-6">
+        <PageImage
+          src="/images/hero-whiteboard.jpg"
+          alt="COGO technology agnostic consulting approach"
+        />
+      </div>
       <Services />
       <Stats />
       <Approach />

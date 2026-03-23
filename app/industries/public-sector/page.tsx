@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Public Sector ERP & Digital Transformation | COGO",
@@ -52,6 +53,11 @@ export default function PublicSectorPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-team-tablet.jpg"
+        alt="Public sector team reviewing digital transformation progress"
+      />
 
       {/* Why public sector needs ERP */}
       <ContentSection withBorder>

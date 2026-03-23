@@ -7,6 +7,7 @@ import Prose from "../components/Prose";
 import Reveal from "../components/Reveal";
 import SpotlightCard from "../components/SpotlightCard";
 import PageCTA from "../components/PageCTA";
+import PageImage from "../components/PageImage";
 
 export const metadata: Metadata = {
   title: "About COGO Consulting | Our Story",
@@ -117,6 +118,11 @@ export default function AboutPage() {
             implementation firms.
           </p>
         </Prose>
+
+        <PageImage
+          src="/images/hero-team-tablet.jpg"
+          alt="Business team collaborating on technology strategy"
+        />
       </ContentSection>
 
       <ContentSection withBorder>

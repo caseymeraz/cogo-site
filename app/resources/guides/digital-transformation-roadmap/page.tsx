@@ -9,6 +9,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Digital Transformation Roadmap Guide | COGO",
@@ -48,6 +49,11 @@ export default function DigitalTransformationRoadmapPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-data-analytics.jpg"
+        alt="Digital transformation analytics and roadmap planning"
+      />
 
       {/* What is a roadmap */}
       <ContentSection withBorder>

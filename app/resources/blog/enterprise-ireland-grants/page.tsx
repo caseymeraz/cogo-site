@@ -6,6 +6,7 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Enterprise Ireland Grants for Transformation | COGO",
@@ -32,6 +33,11 @@ export default function EnterpriseIrelandGrantsPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-team-tablet.jpg"
+        alt="Business team reviewing Enterprise Ireland grant application"
+      />
 
       <ContentSection withBorder>
         <Prose>

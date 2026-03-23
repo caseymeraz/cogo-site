@@ -6,6 +6,7 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Outgrown Sage? Your ERP Options Explained | COGO",
@@ -35,6 +36,11 @@ export default function OutgrownSagePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-factory-discussion.jpg"
+        alt="Manufacturing team discussing ERP system upgrade from Sage"
+      />
 
       <ContentSection withBorder>
         <Prose>

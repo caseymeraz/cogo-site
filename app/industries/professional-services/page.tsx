@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "ERP for Professional Services | Guide | COGO",
@@ -59,6 +60,11 @@ export default function ProfessionalServicesPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-data-analytics.jpg"
+        alt="Data analytics and business intelligence dashboard for professional services"
+      />
 
       {/* Why professional services need ERP */}
       <ContentSection withBorder>

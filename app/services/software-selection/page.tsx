@@ -6,6 +6,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -41,6 +42,8 @@ export default function SoftwareSelectionPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/methodology-evaluation.png" alt="COGO six-step ERP evaluation methodology" />
 
       {/* 6-step methodology */}
       <ContentSection withBorder withGrain>
@@ -264,6 +267,8 @@ export default function SoftwareSelectionPage() {
           </p>
         </Reveal>
       </ContentSection>
+
+      <PageImage src="/images/hero-factory-discussion.jpg" alt="Consultants discussing process requirements in a manufacturing facility" />
 
       {/* Why you shouldn't let your SI pick */}
       <ContentSection withBorder withGrain>

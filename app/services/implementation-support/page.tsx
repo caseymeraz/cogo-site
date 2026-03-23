@@ -6,6 +6,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function ImplementationSupportPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/hero-project-planning.jpg" alt="Project planning and timeline management for ERP implementation" />
 
       {/* Your ERP implementation deserves someone on your side */}
       <ContentSection withBorder withGrain>

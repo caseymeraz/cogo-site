@@ -9,6 +9,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "SAP vs Oracle 2026: Independent UK Comparison | COGO",
@@ -50,6 +51,11 @@ export default function SAPvsOraclePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/sap-consulting-graphic.png"
+        alt="SAP consulting and ERP platform comparison"
+      />
 
       {/* Quick comparison */}
       <ContentSection withBorder>

@@ -7,6 +7,7 @@ import Prose from "../../components/Prose";
 import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
+import PageImage from "../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Why COGO | Client-Side Consulting Explained",
@@ -77,6 +78,11 @@ export default function WhyCogoPage() {
           </p>
         </Reveal>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-factory-discussion.jpg"
+        alt="Independent consultants advising client in manufacturing environment"
+      />
 
       <ContentSection withBorder>
         <SectionHeader

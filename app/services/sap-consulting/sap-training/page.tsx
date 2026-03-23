@@ -6,6 +6,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -46,6 +47,8 @@ export default function SAPTrainingPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage src="/images/hero-sap-training.jpg" alt="SAP Enable Now and WalkMe training delivery" />
 
       {/* Our approach */}
       <ContentSection withBorder withGrain>
@@ -150,6 +153,8 @@ export default function SAPTrainingPage() {
           </Reveal>
         </div>
       </ContentSection>
+
+      <PageImage src="/images/methodology-training-roadmap.jpg" alt="SAP training roadmap methodology" />
 
       {/* Training during implementation */}
       <ContentSection withBorder withGrain>

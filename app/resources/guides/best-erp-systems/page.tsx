@@ -9,6 +9,7 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
+import PageImage from "../../../components/PageImage";
 
 export const metadata: Metadata = {
   title: "Best ERP Systems UK 2026: Independent Guide | COGO",
@@ -59,6 +60,11 @@ export default function BestERPSystemsPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <PageImage
+        src="/images/hero-whiteboard.jpg"
+        alt="Technology agnostic ERP evaluation showing major vendors"
+      />
 
       {/* Quick comparison */}
       <ContentSection withBorder>

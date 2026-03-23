@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageLayout from "../../components/PageLayout";
 import PageHeader from "../../components/PageHeader";
 import ContentSection from "../../components/ContentSection";
@@ -16,11 +17,15 @@ const team = [
   {
     name: "Laurence Phelan",
     role: "Director",
+    image: "/images/team-laurence.jpg",
+    imageAlt: "Laurence Phelan, Director, COGO Consulting",
     bio: "Laurence spent over 15 years in supply chain and operations before founding COGO. As Business Deployment Lead at Kerry Group, he led multi-site SAP rollouts across Europe and the Americas, managing the intersection of process change, technology, and people. His background gives him a rare ability to see an ERP programme from the factory floor, not just the boardroom.",
   },
   {
     name: "Lance Harcourt",
     role: "Director",
+    image: "/images/team-lance.jpg",
+    imageAlt: "Lance Harcourt, Director, COGO Consulting",
     bio: "Lance brings deep project management experience in SAP S/4HANA, earned during large-scale transformation programmes at Glanbia. His career spans manufacturing and pharmaceutical environments, where he learned firsthand what it takes to deliver complex technology projects under real operational constraints. He co-founded COGO to bring that practitioner's perspective to every client engagement.",
   },
   {
@@ -31,11 +36,15 @@ const team = [
   {
     name: "Karl Llewellyn",
     role: "CRM Partner",
+    image: "/images/team-karl.jpg",
+    imageAlt: "Karl Llewellyn, CRM Partner, COGO Consulting",
     bio: "Karl leads COGO's CRM practice, advising clients on CRM strategy, platform selection, and implementation oversight. His focus is on making sure your CRM investment delivers measurable commercial results - not just another database your sales team ignores.",
   },
   {
     name: "George Hanhardt",
     role: "Partner, South Africa",
+    image: "/images/team-george.jpg",
+    imageAlt: "George Hanhardt, Partner South Africa, COGO Consulting",
     bio: "George extends COGO's delivery capability into Southern Africa and supports global programmes that require on-the-ground presence across multiple time zones. His experience in enterprise transformation gives the team additional depth for large, geographically distributed projects.",
   },
 ];
@@ -57,6 +66,17 @@ export default function TeamPage() {
                 <div className="p-8 md:p-10">
                   <div className="flex flex-col md:flex-row md:items-start md:gap-8">
                     <div className="mb-4 md:mb-0 md:min-w-[200px]">
+                      {member.image && (
+                        <div className="mb-4">
+                          <Image
+                            src={member.image}
+                            alt={member.imageAlt || member.name}
+                            width={96}
+                            height={96}
+                            className="rounded-full object-cover w-[96px] h-[96px]"
+                          />
+                        </div>
+                      )}
                       <h3 className="text-[20px] font-semibold tracking-[-0.01em] text-white/90">
                         {member.name}
                       </h3>
