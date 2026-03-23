@@ -7,6 +7,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import SystemArchitecture from "../../components/svg/SystemArchitecture";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -48,6 +50,10 @@ export default function ERPConsultingPage() {
       </ContentSection>
 
       <PageImage src="/images/hero-whiteboard.jpg" alt="COGO technology agnostic consulting presentation showing ERP vendors evaluated" />
+
+      <SvgSection caption="ERP connects every function in your business">
+        <SystemArchitecture />
+      </SvgSection>
 
       {/* Our ERP consulting services */}
       <ContentSection withBorder withGrain>

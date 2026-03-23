@@ -10,6 +10,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import ComparisonScale from "../../../components/svg/ComparisonScale";
 
 export const metadata: Metadata = {
   title: "SAP vs Oracle 2026: Independent UK Comparison | COGO",
@@ -223,6 +225,10 @@ export default function SAPvsOraclePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Comparing platforms on what matters">
+        <ComparisonScale />
+      </SvgSection>
 
       {/* Head to head */}
       <ContentSection withBorder>

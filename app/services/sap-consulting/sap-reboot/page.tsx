@@ -7,6 +7,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import NetworkNodes from "../../../components/svg/NetworkNodes";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -47,6 +49,10 @@ export default function SAPRebootPage() {
       </ContentSection>
 
       <PageImage src="/images/sap-consulting-9.png" alt="SAP system reboot and recovery consulting" />
+
+      <SvgSection caption="Reconnecting your SAP landscape">
+        <NetworkNodes />
+      </SvgSection>
 
       {/* Signs you need a reboot */}
       <ContentSection withBorder withGrain>

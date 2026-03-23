@@ -7,6 +7,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import DataFlow from "../../components/svg/DataFlow";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -40,6 +42,10 @@ export default function BusinessTransformationPage() {
       </ContentSection>
 
       <PageImage src="/images/hero-whiteboard-planning.jpg" alt="Strategic planning session with process mapping on whiteboard" />
+
+      <SvgSection caption="From current state to right-fit solution">
+        <DataFlow />
+      </SvgSection>
 
       {/* What is business transformation? */}
       <ContentSection withBorder withGrain>

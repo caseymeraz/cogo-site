@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import CRMPipeline from "../../components/svg/CRMPipeline";
 
 export const metadata: Metadata = {
   title: "ERP for Professional Services | Guide | COGO",
@@ -140,6 +142,10 @@ export default function ProfessionalServicesPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Revenue pipeline visibility for services firms">
+        <CRMPipeline />
+      </SvgSection>
 
       {/* Top ERP systems */}
       <ContentSection withBorder>

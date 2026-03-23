@@ -10,6 +10,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import TimelineRoadmap from "../../../components/svg/TimelineRoadmap";
 
 export const metadata: Metadata = {
   title: "How Much Does ERP Cost in the UK? 2026 Guide | COGO",
@@ -252,6 +254,10 @@ export default function ERPCostGuidePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Cost phases across an ERP project lifecycle">
+        <TimelineRoadmap />
+      </SvgSection>
 
       {/* By business size */}
       <ContentSection withBorder>

@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import SystemArchitecture from "../../components/svg/SystemArchitecture";
 
 export const metadata: Metadata = {
   title: "ERP for Food Manufacturing | Independent Guide | COGO",
@@ -169,6 +171,10 @@ export default function FoodManufacturingPage() {
           </Reveal>
         </div>
       </ContentSection>
+
+      <SvgSection caption="ERP modules for food and beverage operations">
+        <SystemArchitecture />
+      </SvgSection>
 
       {/* Top ERP systems */}
       <ContentSection withBorder>

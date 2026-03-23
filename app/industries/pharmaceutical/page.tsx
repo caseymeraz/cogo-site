@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import ComplianceStack from "../../components/svg/ComplianceStack";
 
 export const metadata: Metadata = {
   title: "Pharmaceutical ERP Systems | Independent UK & IE Guide | COGO",
@@ -318,6 +320,10 @@ export default function PharmaceuticalPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="The compliance layers your ERP must support">
+        <ComplianceStack />
+      </SvgSection>
 
       {/* Computer system validation */}
       <ContentSection withBorder>

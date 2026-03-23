@@ -7,6 +7,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import TimelineRoadmap from "../../components/svg/TimelineRoadmap";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -40,6 +42,10 @@ export default function ImplementationSupportPage() {
       </ContentSection>
 
       <PageImage src="/images/hero-project-planning.jpg" alt="Project planning and timeline management for ERP implementation" />
+
+      <SvgSection caption="A typical ERP implementation timeline">
+        <TimelineRoadmap />
+      </SvgSection>
 
       {/* Your ERP implementation deserves someone on your side */}
       <ContentSection withBorder withGrain>

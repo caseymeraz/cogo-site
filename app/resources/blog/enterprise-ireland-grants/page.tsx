@@ -7,6 +7,8 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import DataFlow from "../../../components/svg/DataFlow";
 
 export const metadata: Metadata = {
   title: "Enterprise Ireland Grants for Transformation | COGO",
@@ -117,6 +119,10 @@ export default function EnterpriseIrelandGrantsPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="How grant funding supports digital transformation">
+        <DataFlow />
+      </SvgSection>
 
       <ContentSection withBorder>
         <Prose>

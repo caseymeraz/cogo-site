@@ -10,6 +10,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import TimelineRoadmap from "../../../components/svg/TimelineRoadmap";
 
 export const metadata: Metadata = {
   title: "Digital Transformation Roadmap Guide | COGO",
@@ -100,6 +102,10 @@ export default function DigitalTransformationRoadmapPage() {
           </ul>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Mapping the transformation journey">
+        <TimelineRoadmap />
+      </SvgSection>
 
       {/* 8-step framework */}
       <ContentSection withBorder>

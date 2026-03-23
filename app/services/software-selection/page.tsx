@@ -7,6 +7,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import ProcessFlow from "../../components/svg/ProcessFlow";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -44,6 +46,10 @@ export default function SoftwareSelectionPage() {
       </ContentSection>
 
       <PageImage src="/images/methodology-evaluation.png" alt="COGO six-step ERP evaluation methodology" />
+
+      <SvgSection caption="Our five-phase evaluation process">
+        <ProcessFlow />
+      </SvgSection>
 
       {/* 6-step methodology */}
       <ContentSection withBorder withGrain>

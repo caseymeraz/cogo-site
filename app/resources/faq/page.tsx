@@ -6,6 +6,8 @@ import ContentSection from "../../components/ContentSection";
 import Reveal from "../../components/Reveal";
 import Accordion from "../../components/Accordion";
 import PageCTA from "../../components/PageCTA";
+import SvgSection from "../../components/SvgSection";
+import NetworkNodes from "../../components/svg/NetworkNodes";
 
 export const metadata: Metadata = {
   title: "FAQ | ERP, SAP & Business Transformation | COGO",
@@ -539,6 +541,10 @@ export default function FAQPage() {
         title="Frequently asked questions"
         subtitle="Practical answers to the questions we hear most often about ERP, SAP, business transformation, and independent consulting."
       />
+
+      <SvgSection caption="Connected answers for your transformation questions">
+        <NetworkNodes />
+      </SvgSection>
 
       <ContentSection withBorder>
         <Reveal>

@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import NetworkNodes from "../../components/svg/NetworkNodes";
 
 export const metadata: Metadata = {
   title: "SAP Consulting Ireland & UK | Independent | COGO",
@@ -74,6 +76,10 @@ export default function SAPConsultingPage() {
       </ContentSection>
 
       <PageImage src="/images/sap-consulting-graphic.png" alt="SAP consulting services overview" />
+
+      <SvgSection caption="Connected SAP ecosystem">
+        <NetworkNodes />
+      </SvgSection>
 
       {/* Capabilities */}
       <ContentSection withBorder>

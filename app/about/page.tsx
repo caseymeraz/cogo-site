@@ -8,6 +8,8 @@ import Reveal from "../components/Reveal";
 import SpotlightCard from "../components/SpotlightCard";
 import PageCTA from "../components/PageCTA";
 import PageImage from "../components/PageImage";
+import SvgSection from "../components/SvgSection";
+import ShieldCheck from "../components/svg/ShieldCheck";
 
 export const metadata: Metadata = {
   title: "About COGO Consulting | Our Story",
@@ -41,6 +43,10 @@ export default function AboutPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Independence is non-negotiable">
+        <ShieldCheck />
+      </SvgSection>
 
       <ContentSection withBorder>
         <SectionHeader

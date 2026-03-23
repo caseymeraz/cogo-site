@@ -6,6 +6,8 @@ import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
+import SvgSection from "../../../components/SvgSection";
+import TimelineRoadmap from "../../../components/svg/TimelineRoadmap";
 
 export const metadata: Metadata = {
   title: "ERP Implementation Plan: What a Good One Looks Like | COGO",
@@ -37,6 +39,10 @@ export default function ErpImplementationPlanPage() {
           <p>It is not a project schedule. It is not a requirements document. It is not a statement of work from your system integrator. It is the client-side plan that you, the organisation buying and implementing the ERP, own and manage.</p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Planning your implementation phases">
+        <TimelineRoadmap />
+      </SvgSection>
 
       <ContentSection withBorder>
         <Prose>

@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import ShieldCheck from "../../components/svg/ShieldCheck";
 
 export const metadata: Metadata = {
   title: "Public Sector ERP & Digital Transformation | COGO",
@@ -121,6 +123,10 @@ export default function PublicSectorPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="Accountability and governance built in">
+        <ShieldCheck />
+      </SvgSection>
 
       {/* HSE and digital transformation */}
       <ContentSection withBorder>

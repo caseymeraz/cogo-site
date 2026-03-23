@@ -7,6 +7,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import TimelineRoadmap from "../../../components/svg/TimelineRoadmap";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -42,6 +44,10 @@ export default function S4HANAMigrationPage() {
       </ContentSection>
 
       <PageImage src="/images/sap-consulting-8.png" alt="SAP S/4HANA migration consulting" />
+
+      <SvgSection caption="S/4HANA migration phases">
+        <TimelineRoadmap />
+      </SvgSection>
 
       {/* What is SAP S/4HANA? */}
       <ContentSection withBorder withGrain>

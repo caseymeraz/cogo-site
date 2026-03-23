@@ -4,6 +4,8 @@ import LogoTicker from "./components/LogoTicker";
 import TruthSection from "./components/TruthSection";
 import PageImage from "./components/PageImage";
 import Services from "./components/Services";
+import SvgSection from "./components/SvgSection";
+import DataFlow from "./components/svg/DataFlow";
 import Stats from "./components/Stats";
 import Approach from "./components/Approach";
 import Industries from "./components/Industries";
@@ -26,6 +28,11 @@ export default function Home() {
         />
       </div>
       <Services />
+      <div className="max-w-4xl mx-auto px-6">
+        <SvgSection caption="How independent evaluation works">
+          <DataFlow />
+        </SvgSection>
+      </div>
       <Stats />
       <Approach />
       <Industries />

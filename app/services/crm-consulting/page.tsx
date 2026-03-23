@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import CRMPipeline from "../../components/svg/CRMPipeline";
 
 export const metadata: Metadata = {
   title: "CRM Consulting Ireland | Independent Advice | COGO",
@@ -59,6 +61,10 @@ export default function CRMConsultingPage() {
       </ContentSection>
 
       <PageImage src="/images/crm-hubspot.png" alt="HubSpot CRM platform" aspect="auto" />
+
+      <SvgSection caption="CRM pipeline visibility">
+        <CRMPipeline />
+      </SvgSection>
 
       {/* Three-block approach */}
       <ContentSection withBorder>

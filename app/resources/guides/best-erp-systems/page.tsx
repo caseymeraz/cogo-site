@@ -10,6 +10,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import SystemArchitecture from "../../../components/svg/SystemArchitecture";
 
 export const metadata: Metadata = {
   title: "Best ERP Systems UK 2026: Independent Guide | COGO",
@@ -173,6 +175,10 @@ export default function BestERPSystemsPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="What a modern ERP platform covers">
+        <SystemArchitecture />
+      </SvgSection>
 
       {/* Methodology */}
       <ContentSection withBorder>

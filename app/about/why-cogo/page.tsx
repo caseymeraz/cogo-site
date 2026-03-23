@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import ComparisonScale from "../../components/svg/ComparisonScale";
 
 export const metadata: Metadata = {
   title: "Why COGO | Client-Side Consulting Explained",
@@ -78,6 +80,10 @@ export default function WhyCogoPage() {
           </p>
         </Reveal>
       </ContentSection>
+
+      <SvgSection caption="Vendor bias versus independent advice">
+        <ComparisonScale />
+      </SvgSection>
 
       <PageImage
         src="/images/hero-factory-discussion.jpg"

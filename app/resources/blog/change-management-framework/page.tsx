@@ -5,6 +5,8 @@ import PageHeader from "../../../components/PageHeader";
 import ContentSection from "../../../components/ContentSection";
 import Prose from "../../../components/Prose";
 import PageCTA from "../../../components/PageCTA";
+import SvgSection from "../../../components/SvgSection";
+import ProcessFlow from "../../../components/svg/ProcessFlow";
 
 export const metadata: Metadata = {
   title: "Change Management Framework for ERP | Choose and Apply | COGO",
@@ -25,6 +27,10 @@ export default function ChangeManagementFrameworkPage() {
         <h3>Prosci methodology</h3>
         <p>Wraps around ADKAR with three phases: preparing for change, managing change, and reinforcing change. The most comprehensive approach. Best for organisations building long-term change management capability.</p>
       </Prose></ContentSection>
+      <SvgSection caption="Structured change management approach">
+        <ProcessFlow />
+      </SvgSection>
+
       <ContentSection withBorder><Prose>
         <h2>Applying change management to ERP projects</h2>
         <p><strong>Start at project kick-off, not before go-live.</strong> Change management should begin during the planning phase.</p>

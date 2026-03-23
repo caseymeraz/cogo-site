@@ -10,6 +10,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import ProcessFlow from "../../../components/svg/ProcessFlow";
 
 export const metadata: Metadata = {
   title: "How to Choose an ERP System | UK Guide | COGO",
@@ -81,6 +83,10 @@ export default function HowToChooseERPPage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="The structured path to the right ERP">
+        <ProcessFlow />
+      </SvgSection>
 
       {/* The 8-step ERP selection process */}
       <ContentSection withBorder>

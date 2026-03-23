@@ -8,6 +8,8 @@ import Reveal from "../../components/Reveal";
 import SpotlightCard from "../../components/SpotlightCard";
 import PageCTA from "../../components/PageCTA";
 import PageImage from "../../components/PageImage";
+import SvgSection from "../../components/SvgSection";
+import NetworkNodes from "../../components/svg/NetworkNodes";
 
 export const metadata: Metadata = {
   title: "COGO + Westernacher | SAP Gold Partner Alliance",
@@ -94,6 +96,10 @@ export default function PartnersPage() {
         src="/images/partnership-diagram.jpg"
         alt="COGO and Westernacher partnership model showing strategy and delivery roles"
       />
+
+      <SvgSection caption="Global delivery network">
+        <NetworkNodes />
+      </SvgSection>
 
       <ContentSection withBorder>
         <SectionHeader

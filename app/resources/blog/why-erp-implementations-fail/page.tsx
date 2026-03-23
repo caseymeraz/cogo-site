@@ -7,6 +7,8 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import ComparisonScale from "../../../components/svg/ComparisonScale";
 
 export const metadata: Metadata = {
   title: "Why ERP Implementations Fail | Independent Analysis | COGO",
@@ -61,6 +63,10 @@ export default function WhyErpImplementationsFailPage() {
           <p>That is the starting point. Now here is why it happens.</p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="The conflict at the heart of most ERP projects">
+        <ComparisonScale />
+      </SvgSection>
 
       <ContentSection withBorder>
         <Prose>

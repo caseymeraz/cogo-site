@@ -7,6 +7,8 @@ import Reveal from "../../../components/Reveal";
 import SpotlightCard from "../../../components/SpotlightCard";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import ProcessFlow from "../../../components/svg/ProcessFlow";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -49,6 +51,10 @@ export default function SAPTrainingPage() {
       </ContentSection>
 
       <PageImage src="/images/hero-sap-training.jpg" alt="SAP Enable Now and WalkMe training delivery" />
+
+      <SvgSection caption="Training delivery approach">
+        <ProcessFlow />
+      </SvgSection>
 
       {/* Our approach */}
       <ContentSection withBorder withGrain>

@@ -7,6 +7,8 @@ import Prose from "../../../components/Prose";
 import Reveal from "../../../components/Reveal";
 import PageCTA from "../../../components/PageCTA";
 import PageImage from "../../../components/PageImage";
+import SvgSection from "../../../components/SvgSection";
+import SystemArchitecture from "../../../components/svg/SystemArchitecture";
 
 export const metadata: Metadata = {
   title: "Outgrown Sage? Your ERP Options Explained | COGO",
@@ -65,6 +67,10 @@ export default function OutgrownSagePage() {
           </p>
         </Prose>
       </ContentSection>
+
+      <SvgSection caption="What a full ERP platform looks like beyond Sage">
+        <SystemArchitecture />
+      </SvgSection>
 
       <ContentSection withBorder>
         <Prose>
