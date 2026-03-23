@@ -20,7 +20,7 @@ export default function CTA() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <p className="text-[17px] text-white/45 mb-12 max-w-xl mx-auto leading-relaxed text-balance">
+          <p className="text-[17px] text-muted mb-12 max-w-xl mx-auto leading-relaxed text-balance">
             Book a 30-minute call with one of our partners. No pitch, no
             pressure. Tell us what you are facing and we will tell you honestly
             if we can help.
@@ -36,7 +36,7 @@ export default function CTA() {
             >
               <span className="absolute inset-[1px] bg-gradient-to-r from-accent to-accent-2 rounded-full" />
               <span className="absolute inset-[1px] bg-gradient-to-r from-accent to-accent-2 rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity" />
-              <span className="relative z-10 flex items-center gap-2 text-background">
+              <span className="relative z-10 flex items-center gap-2 text-white">
                 Book a call
                 <svg
                   className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"
@@ -51,7 +51,7 @@ export default function CTA() {
 
             <a
               href="mailto:info@cogo.ie"
-              className="text-[13px] text-white/40 hover:text-white/70 transition-colors duration-300"
+              className="text-[13px] text-muted hover:text-foreground transition-colors duration-300"
             >
               or email info@cogo.ie
             </a>
@@ -66,10 +66,10 @@ export default function CTA() {
               { region: "South Africa", phone: "+27 651 015 858" },
             ].map((contact) => (
               <div key={contact.region}>
-                <div className="font-medium text-white/70 mb-1">
+                <div className="font-medium text-foreground/70 mb-1">
                   {contact.region}
                 </div>
-                <div className="text-white/35">{contact.phone}</div>
+                <div className="text-muted">{contact.phone}</div>
               </div>
             ))}
           </div>

@@ -16,7 +16,7 @@ export default function TruthSection() {
           </h2>
         </Reveal>
         <Reveal delay={0.1}>
-          <div className="space-y-5 text-[15px] text-white/50 leading-[1.8]">
+          <div className="space-y-5 text-[15px] text-muted leading-[1.8]">
             <p>
               Not because the technology is wrong, but because the advice was
               conflicted from day one.
@@ -27,7 +27,7 @@ export default function TruthSection() {
               Big Four firm will send a partner to the pitch and a graduate to the
               project.
             </p>
-            <p className="text-white/70 font-medium">
+            <p className="text-foreground font-medium">
               You deserve better than that. You deserve advice that puts your
               business first, not someone else&apos;s revenue target.
             </p>

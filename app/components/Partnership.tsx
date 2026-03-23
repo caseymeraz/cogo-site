@@ -10,9 +10,9 @@ export default function Partnership() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <Reveal>
-          <div className="relative rounded-3xl border border-white/[0.06] overflow-hidden">
+          <div className="relative rounded-3xl border border-border overflow-hidden">
             {/* Background effects */}
-            <div className="absolute inset-0 bg-white/[0.02]" />
+            <div className="absolute inset-0 bg-surface" />
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/[0.04] rounded-full blur-[120px]" />
             <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-accent-2/[0.04] rounded-full blur-[120px]" />
 
@@ -26,12 +26,12 @@ export default function Partnership() {
                   <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-5 font-medium">
                     Strategic partnership
                   </p>
-                  <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-6">
+                  <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-6 text-foreground">
                     Irish expertise.
                     <br />
-                    <span className="text-white/40">Global SAP delivery.</span>
+                    <span className="text-muted">Global SAP delivery.</span>
                   </h2>
-                  <p className="text-[15px] text-white/45 leading-[1.7] mb-8">
+                  <p className="text-[15px] text-muted leading-[1.7] mb-8">
                     Through our partnership with Westernacher, a global SAP Gold
                     Partner founded in 1969, we combine COGO&apos;s local advisory
                     and client-side leadership with world-class SAP implementation
@@ -46,7 +46,7 @@ export default function Partnership() {
                     ].map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-3 text-[13px] text-white/50"
+                        className="flex items-start gap-3 text-[13px] text-muted"
                       >
                         <svg
                           className="w-4 h-4 text-accent flex-shrink-0 mt-0.5"
@@ -80,7 +80,7 @@ export default function Partnership() {
                 <div className="flex flex-col items-center justify-center gap-10">
                   {/* Partner logos */}
                   <div className="flex items-center gap-6">
-                    <div className="p-5 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
+                    <div className="p-5 rounded-2xl border border-border bg-white">
                       <Image
                         src="/logos/cogo-logo.png"
                         alt="COGO"
@@ -89,8 +89,8 @@ export default function Partnership() {
                         className="h-9 w-auto"
                       />
                     </div>
-                    <div className="text-[24px] text-white/20 font-extralight">+</div>
-                    <div className="p-5 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
+                    <div className="text-[24px] text-foreground/20 font-extralight">+</div>
+                    <div className="p-5 rounded-2xl border border-border bg-white">
                       <Image
                         src="/logos/westernacher.png"
                         alt="Westernacher"
@@ -112,7 +112,7 @@ export default function Partnership() {
                         <div className="text-[24px] font-bold tracking-[-0.02em] gradient-text leading-none mb-1.5">
                           {stat.value}
                         </div>
-                        <div className="text-[11px] text-white/35 uppercase tracking-[0.1em]">
+                        <div className="text-[11px] text-muted uppercase tracking-[0.1em]">
                           {stat.label}
                         </div>
                       </div>

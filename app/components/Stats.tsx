@@ -73,14 +73,14 @@ export default function Stats() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10">
           {stats.map((stat, i) => (
             <Reveal key={stat.label} delay={i * 0.08}>
-              <div className="text-center p-6 rounded-2xl border border-white/[0.04] hover:border-white/[0.08] transition-colors duration-500">
+              <div className="text-center p-6 rounded-2xl border border-border hover:border-border-hover transition-colors duration-500">
                 <div className="text-[clamp(36px,5vw,56px)] font-bold tracking-[-0.03em] gradient-text mb-2 leading-none">
                   <AnimatedNumber target={stat.value} suffix={stat.suffix} />
                 </div>
-                <div className="text-[13px] font-medium text-white/80 mb-1">
+                <div className="text-[13px] font-medium text-foreground mb-1">
                   {stat.label}
                 </div>
-                <div className="text-[12px] text-white/40 leading-relaxed">
+                <div className="text-[12px] text-muted leading-relaxed">
                   {stat.description}
                 </div>
               </div>

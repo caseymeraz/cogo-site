@@ -30,7 +30,7 @@ export default function PageImage({
     <Reveal>
       <figure className={`my-12 ${className}`}>
         <div
-          className={`relative ${aspectClass} overflow-hidden rounded-2xl border border-white/[0.06]`}
+          className={`relative ${aspectClass} overflow-hidden rounded-2xl border border-border`}
         >
           <Image
             src={src}
@@ -40,11 +40,11 @@ export default function PageImage({
             sizes="(max-width: 768px) 100vw, 800px"
             loading={priority ? "eager" : "lazy"}
           />
-          {/* Subtle gradient overlay to blend with dark theme */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#050508]/30 to-transparent pointer-events-none" />
+          {/* Subtle gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
         </div>
         {caption && (
-          <figcaption className="mt-3 text-[12px] text-white/30 text-center">
+          <figcaption className="mt-3 text-[12px] text-muted text-center">
             {caption}
           </figcaption>
         )}

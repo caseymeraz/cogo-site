@@ -16,7 +16,7 @@ export default function PageCTA({
   buttonHref = "/contact/",
 }: PageCTAProps) {
   return (
-    <section className="py-24 md:py-32 relative overflow-hidden border-t border-white/[0.04]">
+    <section className="py-24 md:py-32 relative overflow-hidden bg-surface border-t border-border">
       <div className="absolute inset-0 hero-gradient opacity-40" />
       <div className="absolute inset-0 grain" />
 
@@ -25,7 +25,7 @@ export default function PageCTA({
           <h2 className="text-[clamp(24px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
             {title}
           </h2>
-          <p className="text-[15px] text-white/45 leading-relaxed mb-10 text-balance">
+          <p className="text-[15px] text-muted leading-relaxed mb-10 text-balance">
             {subtitle}
           </p>
           <a
@@ -34,7 +34,7 @@ export default function PageCTA({
           >
             <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full" />
             <span className="absolute inset-0 bg-gradient-to-r from-accent to-accent-2 rounded-full blur-xl opacity-30 group-hover:opacity-50 transition-opacity" />
-            <span className="relative z-10 flex items-center gap-2 text-background">
+            <span className="relative z-10 flex items-center gap-2 text-white">
               {buttonText}
               <svg
                 className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200"

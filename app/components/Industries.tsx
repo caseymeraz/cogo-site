@@ -53,7 +53,7 @@ const industries = [
 
 export default function Industries() {
   return (
-    <section className="py-28 relative border-t border-white/[0.04]">
+    <section className="py-28 relative border-t border-border">
       <div className="absolute inset-0 grain" />
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <Reveal>
@@ -73,14 +73,14 @@ export default function Industries() {
               <Link href={industry.href} className="block h-full">
                 <SpotlightCard className="h-full">
                   <div className="p-7 lg:p-8 flex gap-5">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-xl border border-white/[0.08] bg-white/[0.03] flex items-center justify-center text-accent">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl border border-border bg-white flex items-center justify-center text-accent">
                       {industry.icon}
                     </div>
                     <div>
-                      <h3 className="text-[15px] font-semibold tracking-[-0.01em] mb-2">
+                      <h3 className="text-[15px] font-semibold tracking-[-0.01em] mb-2 text-foreground">
                         {industry.title}
                       </h3>
-                      <p className="text-[13px] text-white/40 leading-[1.7]">
+                      <p className="text-[13px] text-muted leading-[1.7]">
                         {industry.description}
                       </p>
                     </div>

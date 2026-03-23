@@ -49,8 +49,8 @@ const points = [
 export default function Differentiators() {
   return (
     <section id="results" className="py-28 relative">
-      <div className="absolute inset-0 border-y border-white/[0.04]" />
-      <div className="absolute inset-0 bg-white/[0.01]" />
+      <div className="absolute inset-0 border-t border-border" />
+      <div className="absolute inset-0 bg-surface/50" />
       <div className="absolute inset-0 grain" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-6">
@@ -59,10 +59,10 @@ export default function Differentiators() {
             <p className="text-[11px] uppercase tracking-[0.15em] text-accent mb-4 font-medium">
               Why COGO
             </p>
-            <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
+            <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5 text-foreground">
               The difference is whose side we are on
             </h2>
-            <p className="text-[16px] text-white/50 leading-relaxed">
+            <p className="text-[16px] text-muted leading-relaxed">
               Large consulting firms earn more when projects get bigger. We earn
               trust by keeping yours right-sized and on track.
             </p>
@@ -74,14 +74,14 @@ export default function Differentiators() {
             <Reveal key={point.title} delay={i * 0.08}>
               <SpotlightCard>
                 <div className="p-7 lg:p-8 flex gap-5">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-xl border border-white/[0.08] bg-white/[0.03] flex items-center justify-center text-accent">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-xl border border-border bg-white flex items-center justify-center text-accent">
                     {point.icon}
                   </div>
                   <div>
-                    <h3 className="text-[15px] font-semibold tracking-[-0.01em] mb-2">
+                    <h3 className="text-[15px] font-semibold tracking-[-0.01em] mb-2 text-foreground">
                       {point.title}
                     </h3>
-                    <p className="text-[13px] text-white/40 leading-[1.7]">
+                    <p className="text-[13px] text-muted leading-[1.7]">
                       {point.description}
                     </p>
                   </div>

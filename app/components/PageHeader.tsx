@@ -35,7 +35,7 @@ export default function PageHeader({
             {title}
           </h1>
           {subtitle && (
-            <p className="text-[17px] text-white/50 leading-relaxed max-w-2xl text-balance">
+            <p className="text-[17px] text-muted leading-relaxed max-w-2xl text-balance">
               {subtitle}
             </p>
           )}

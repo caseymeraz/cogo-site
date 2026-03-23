@@ -47,9 +47,8 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/[0.04] relative">
-      <div className="absolute inset-0 grain" />
-      <div className="relative z-10 max-w-6xl mx-auto px-6">
+    <footer className="bg-surface border-t border-border relative">
+      <div className="max-w-6xl mx-auto px-6">
         {/* Main footer */}
         <div className="py-16 grid grid-cols-2 md:grid-cols-5 gap-10">
           {/* Logo + tagline */}
@@ -63,7 +62,7 @@ export default function Footer() {
                 className="h-6 w-auto mb-4"
               />
             </Link>
-            <p className="text-[12px] text-white/30 leading-relaxed">
+            <p className="text-[12px] text-muted leading-relaxed">
               Independent business transformation consulting for Ireland, the UK, and beyond.
             </p>
           </div>
@@ -71,7 +70,7 @@ export default function Footer() {
           {/* Link columns */}
           {footerLinks.map((group) => (
             <div key={group.title}>
-              <p className="text-[11px] uppercase tracking-[0.1em] text-white/50 font-medium mb-4">
+              <p className="text-[11px] uppercase tracking-[0.1em] text-foreground/70 font-medium mb-4">
                 {group.title}
               </p>
               <ul className="space-y-2.5">
@@ -79,7 +78,7 @@ export default function Footer() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-[13px] text-white/30 hover:text-white/70 transition-colors duration-300"
+                      className="text-[13px] text-muted hover:text-foreground transition-colors duration-300"
                     >
                       {link.label}
                     </Link>
@@ -91,8 +90,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="py-8 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[11px] text-white/20 tracking-wide">
+        <div className="py-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-[11px] text-muted/60 tracking-wide">
             &copy; {new Date().getFullYear()} COGO Business Transformation. All
             rights reserved.
           </p>
@@ -101,7 +100,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/cogo-business-transformation"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/25 hover:text-accent transition-colors duration-300"
+              className="text-muted hover:text-accent transition-colors duration-300"
               aria-label="LinkedIn"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -110,7 +109,7 @@ export default function Footer() {
             </a>
             <a
               href="mailto:info@cogo.ie"
-              className="text-[11px] text-white/25 hover:text-white/60 transition-colors duration-300"
+              className="text-[11px] text-muted hover:text-foreground transition-colors duration-300"
             >
               info@cogo.ie
             </a>

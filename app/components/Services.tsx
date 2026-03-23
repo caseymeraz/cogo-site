@@ -78,7 +78,7 @@ export default function Services() {
             <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
               Four ways we keep your project on track
             </h2>
-            <p className="text-[16px] text-white/50 leading-relaxed">
+            <p className="text-[16px] text-muted leading-relaxed">
               Every engagement starts with one question: what does your business
               actually need? Not what a vendor wants to sell you.
             </p>
@@ -100,16 +100,16 @@ export default function Services() {
                   />
 
                   {/* Number watermark */}
-                  <span className="absolute top-6 right-8 text-[72px] font-bold leading-none text-white/[0.03] select-none tracking-[-0.04em]">
+                  <span className="absolute top-6 right-8 text-[72px] font-bold leading-none text-foreground/[0.05] select-none tracking-[-0.04em]">
                     {service.number}
                   </span>
 
                   {/* Content */}
                   <div className="relative">
-                    <h3 className="text-[20px] font-semibold tracking-[-0.02em] mb-3 pr-16">
+                    <h3 className="text-[20px] font-semibold tracking-[-0.02em] mb-3 pr-16 text-foreground">
                       {service.title}
                     </h3>
-                    <p className="text-[14px] text-white/45 leading-[1.7] mb-7">
+                    <p className="text-[14px] text-muted leading-[1.7] mb-7">
                       {service.description}
                     </p>
 
@@ -118,7 +118,7 @@ export default function Services() {
                       {service.features.map((feature) => (
                         <li
                           key={feature}
-                          className="flex items-center gap-3 text-[13px] text-white/50"
+                          className="flex items-center gap-3 text-[13px] text-foreground/60"
                         >
                           <span
                             className={`w-1 h-1 rounded-full bg-gradient-to-r ${service.gradient} flex-shrink-0`}

@@ -57,7 +57,7 @@ export default function Approach() {
             <h2 className="text-[clamp(28px,4vw,40px)] font-semibold tracking-[-0.03em] leading-[1.1] mb-5">
               A process built from 30 years of knowing what goes wrong
             </h2>
-            <p className="text-[16px] text-white/50 leading-relaxed text-balance">
+            <p className="text-[16px] text-muted leading-relaxed text-balance">
               Most transformation projects fail because of bad decisions made
               early. Our methodology prevents that.
             </p>
@@ -68,20 +68,20 @@ export default function Approach() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
           {steps.map((step, i) => (
             <Reveal key={step.step} delay={i * 0.07}>
-              <div className="group relative p-7 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:border-white/[0.12] hover:bg-white/[0.04] transition-all duration-500 h-full">
+              <div className="group relative p-7 rounded-2xl border border-border bg-surface hover:border-border-hover hover:bg-surface-2 transition-all duration-500 h-full">
                 {/* Step number */}
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="flex items-center justify-center w-10 h-10 rounded-xl border border-white/[0.08] bg-white/[0.03] text-[12px] font-mono text-accent group-hover:border-accent/30 transition-colors duration-500">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-white text-[12px] font-mono text-accent group-hover:border-accent/30 transition-colors duration-500">
                     {step.step}
                   </span>
-                  <div className="h-px flex-1 bg-gradient-to-r from-white/[0.08] to-transparent" />
+                  <div className="h-px flex-1 bg-gradient-to-r from-border to-transparent" />
                 </div>
 
                 {/* Content */}
-                <h3 className="text-[16px] font-semibold tracking-[-0.01em] mb-2.5">
+                <h3 className="text-[16px] font-semibold tracking-[-0.01em] mb-2.5 text-foreground">
                   {step.title}
                 </h3>
-                <p className="text-[13px] text-white/40 leading-[1.7]">
+                <p className="text-[13px] text-muted leading-[1.7]">
                   {step.description}
                 </p>
               </div>
