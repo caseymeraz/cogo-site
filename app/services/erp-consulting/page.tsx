@@ -249,7 +249,7 @@ export default function ERPConsultingPage() {
           <div className="mt-12 overflow-x-auto">
             <table className="w-full text-[14px] text-muted">
               <thead>
-                <tr className="border-b border-white/10">
+                <tr className="border-b border-border">
                   <th className="text-left py-3 pr-4 text-foreground/80 font-medium"></th>
                   <th className="text-left py-3 px-4 text-accent font-medium">Advisory ERP consultant</th>
                   <th className="text-left py-3 pl-4 text-foreground/80 font-medium">System integrator</th>

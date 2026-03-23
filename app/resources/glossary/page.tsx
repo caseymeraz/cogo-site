@@ -142,7 +142,7 @@ export default function GlossaryPage() {
               {group.terms.map((term) => (
                 <Reveal key={term.href}>
                   <Link href={term.href}>
-                    <SpotlightCard className="p-6 hover:border-white/10 transition-colors">
+                    <SpotlightCard className="p-6 hover:border-border-hover transition-colors">
                       <h3 className="text-[17px] font-medium text-foreground mb-2">
                         {term.title}
                       </h3>

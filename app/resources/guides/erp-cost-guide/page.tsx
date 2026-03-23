@@ -73,7 +73,7 @@ export default function ERPCostGuidePage() {
           <div className="overflow-x-auto -mx-6 px-6 mb-8">
             <table className="w-full text-[13px] text-muted border-collapse">
               <thead>
-                <tr className="border-b border-white/10 text-left">
+                <tr className="border-b border-border text-left">
                   <th className="py-3 pr-4 text-foreground font-medium">Cost category</th>
                   <th className="py-3 pr-4 text-foreground font-medium">Typical %</th>
                   <th className="py-3 pr-4 text-foreground font-medium">GBP range (mid-market)</th>

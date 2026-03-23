@@ -66,7 +66,7 @@ export default function TemplatesPage() {
           {templates.map((template, index) => (
             <Reveal key={template.href} delay={index * 0.05}>
               <Link href={template.href}>
-                <SpotlightCard className="p-8 hover:border-white/10 transition-colors">
+                <SpotlightCard className="p-8 hover:border-border-hover transition-colors">
                   <div className="flex items-start justify-between gap-6">
                     <div>
                       <h2 className="text-[18px] font-medium text-foreground mb-3 tracking-[-0.01em]">

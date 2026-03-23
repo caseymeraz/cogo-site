@@ -20,7 +20,7 @@ export default function ContentSection({
   return (
     <section
       id={id}
-      className={`py-20 md:py-28 relative ${withBorder ? "border-t border-white/[0.04]" : ""} ${className}`}
+      className={`py-20 md:py-28 relative ${withBorder ? "border-t border-border" : ""} ${className}`}
     >
       {withGrain && <div className="absolute inset-0 grain" />}
       <div className="relative z-10 max-w-4xl mx-auto px-6">{children}</div>
@@ -51,7 +51,7 @@ export function SectionHeader({
           {title}
         </h2>
         {subtitle && (
-          <p className="text-[15px] text-white/45 leading-relaxed">{subtitle}</p>
+          <p className="text-[15px] text-muted leading-relaxed">{subtitle}</p>
         )}
       </div>
     </Reveal>

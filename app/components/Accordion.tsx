@@ -12,12 +12,12 @@ interface AccordionItemProps {
 
 function AccordionItem({ question, children, isOpen, onToggle }: AccordionItemProps) {
   return (
-    <div className="border-b border-white/[0.06]">
+    <div className="border-b border-border">
       <button
         onClick={onToggle}
         className="w-full flex items-center justify-between py-6 text-left group cursor-pointer"
       >
-        <span className="text-[16px] font-medium text-white/85 group-hover:text-white transition-colors pr-8 leading-relaxed">
+        <span className="text-[16px] font-medium text-foreground group-hover:text-accent transition-colors pr-8 leading-relaxed">
           {question}
         </span>
         <motion.span
@@ -39,7 +39,7 @@ function AccordionItem({ question, children, isOpen, onToggle }: AccordionItemPr
             transition={{ duration: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
             className="overflow-hidden"
           >
-            <div className="pb-6 text-[15px] text-white/50 leading-[1.8] space-y-4">
+            <div className="pb-6 text-[15px] text-muted leading-[1.8] space-y-4">
               {children}
             </div>
           </motion.div>

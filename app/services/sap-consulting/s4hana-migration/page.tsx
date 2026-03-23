@@ -309,7 +309,7 @@ export default function S4HANAMigrationPage() {
           <div className="overflow-x-auto mb-10">
             <table className="w-full text-[14px] text-muted">
               <thead>
-                <tr className="border-b border-white/10">
+                <tr className="border-b border-border">
                   <th className="text-left py-3 pr-4 text-foreground/80 font-medium">Migration approach</th>
                   <th className="text-left py-3 px-4 text-accent font-medium">Typical duration</th>
                   <th className="text-left py-3 pl-4 text-foreground/80 font-medium">Range</th>
