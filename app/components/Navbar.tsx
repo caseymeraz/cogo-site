@@ -40,7 +40,7 @@ export default function Navbar() {
             alt="COGO Business Transformation"
             width={120}
             height={40}
-            className="h-7 w-auto brightness-0 invert opacity-90"
+            className="h-7 w-auto"
           />
         </a>
 

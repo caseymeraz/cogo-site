@@ -14,7 +14,7 @@ export default function Footer() {
               alt="COGO"
               width={100}
               height={34}
-              className="h-5 w-auto brightness-0 invert opacity-40"
+              className="h-5 w-auto opacity-60"
             />
           </div>
 
